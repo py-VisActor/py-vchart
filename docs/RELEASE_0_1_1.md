@@ -33,3 +33,10 @@ PyPI 项目 `py-visactor-vchart`，GitHub owner/repo `py-VisActor/py-vchart`，w
 **PyPI 尚未发布**：实际上传返回 `invalid-publisher`。需在 PyPI 添加项目 `py-visactor-vchart` 的 Publisher，owner `py-VisActor`、repo `py-vchart`、workflow `publish-pypi.yml`、environment `pypi`；配置后可重跑失败的 publish job，复用同组已验收字节，再执行 PyPI 下载哈希/安装复核。GitHub 正式发行和安装不依赖该账户操作。
 
 消费者 py-mermaid 的七类 Mermaid 语法是独立验收范围；上述功能运行后人工看图发现宿主标题/配色/柱宽/描边边界问题，已另开集中修复与新同候选运行。不能把供应方正式发布或这份早期功能检查当作消费者最终视觉验收。供应方已发布文件和 tag 不因宿主修复而改写。
+
+
+## 消费方最终收口
+
+2026-11-07，py-mermaid 最终本机同候选 `VCHART-P4-batch-20261107T045154Z-dd03474c` SUCCESS，两侧源码运行期不变；2283 方法（供应方67、接入156、旧回归2060）、原生225×三后端、reference225、68规格API、七语法42输入×三后端通过。30张最终CPU原图实际查看，原版同SHA图绑定先前实际查看记录；两次消费方全新环境 wheel/sdist 正常解析正式GitHub wheel并核SHA、68类型/数学/实际ELK/SVG/PDF通过。Treemap原版透明白字缺陷作为明确差异，本端补可读默认文字，未降低墨迹门禁。其余高级限制与既有22条Mermaid分支缺口保留。
+
+报告本机地址：`http://127.0.0.1:8765/VCHART-P5-delivery-20261107T045848Z-3903b480/index.html`；335条记录/29页，2537附件与HTTP SHA、桌面/窄屏QA通过。机器汇总保存在相邻消费者仓库的 `references/vchart-verification-summary.json`。以上属于消费方本地接入，不是发布 py-mermaid 包，也不代表 PyPI 已上传。
