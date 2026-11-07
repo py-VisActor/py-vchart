@@ -1,5 +1,5 @@
 # Captured inputs are SHA-locked raw bytes, including their original EOLs.
 # Git must not rewrite them on add/checkout on either supported platform.
-tests/cases/**/spec.json -text
-tests/cases/**/geo.json -text
-tests/cases/**/source.svg -text
+tests/cases/**/spec.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/cases/**/geo.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/cases/**/source.svg -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
