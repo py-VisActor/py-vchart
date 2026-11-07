@@ -5,8 +5,8 @@ on:
       release_tag:
         description: Reviewed GitHub release tag
         type: choice
-        options: [py-visactor-vchart-v0.1.1]
-        default: py-visactor-vchart-v0.1.1
+        options: [py-visactor-vchart-v0.1.2]
+        default: py-visactor-vchart-v0.1.2
       manifest_sha256:
         description: SHA256 of reviewed release-manifest.json
         type: string
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-24.04
     environment:
       name: pypi
-      url: https://pypi.org/project/py-visactor-vchart/0.1.1/
+      url: https://pypi.org/project/py-visactor-vchart/0.1.2/
     permissions:
       contents: read
       id-token: write

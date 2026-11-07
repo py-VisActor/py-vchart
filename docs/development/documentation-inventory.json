@@ -1,0 +1,129 @@
+{
+  "schema": "py-visactor-documentation-inventory/v1",
+  "project": "py-vchart",
+  "userEntry": "docs/README.md",
+  "developerEntry": "docs/development/README.md",
+  "agentEntry": "AGENTS.md",
+  "roles": {
+    "user": "Installation, API, examples and supported behavior",
+    "developer": "Repository maintenance, tools, architecture and agent rules",
+    "archive": "Historical plans or original archived text; not current instructions",
+    "evidence": "Frozen verification and source records; not current user guidance",
+    "legal": "License and attribution notices"
+  },
+  "counts": {
+    "developer": 9,
+    "user": 10,
+    "evidence": 8
+  },
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "audience": "developer"
+    },
+    {
+      "path": "README.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/API.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/BAR_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/CARTESIAN_BATCH_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/CHARTS.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/CHART_TYPES.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/EXPANDED_BATCH_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/GEOMETRY_BATCH_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/LINE_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/MAP_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/NEXT_POLAR_BATCH.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/POLAR_BATCH_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/PORTING_PLAN.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/PORTING_WORKFLOW.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/README.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/RELEASE_0_1_1.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/SCATTER_ACCEPTANCE.md",
+      "audience": "evidence"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/VCHART_ARCHITECTURE.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/development/README.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/development/WORKFLOW.md",
+      "audience": "developer"
+    },
+    {
+      "path": "docs/releases/0.1.0.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/releases/0.1.1.md",
+      "audience": "user"
+    },
+    {
+      "path": "docs/releases/0.1.2.md",
+      "audience": "user"
+    },
+    {
+      "path": "tools/oracle/README.md",
+      "audience": "developer"
+    }
+  ]
+}
