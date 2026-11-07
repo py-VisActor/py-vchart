@@ -1,5 +1,7 @@
 # 0.1.1 发行记录
 
+> 最新：0.1.1 已正式发布 [PyPI](https://pypi.org/project/py-visactor-vchart/0.1.1/)。工作流42337813981第2次尝试6个job全部成功；下文invalid-publisher为第1次尝试的历史，原失败与资产保留。
+
 2026-11-07，开始从已发布 GitHub `v0.1.0` / `f1ae8a7910b94cd4d2e9ef675ed7607b40b9eb57` 准备独立 0.1.1。旧 tag/asset 不改写。原始工作树干净；源码与发布工具修改分别由会话 owner 负责。
 
 源码实现与验证分开：下列计划与早期状态保留；实际 GitHub 正式发行及 PyPI 阻塞见“实际交付”。旧 reference 严格 225 例保留，新默认 Canvas 单独验证全部 68 类型、累计原输入、可读内容/几何、三后端、多格式与资源隔离。Canvas 字形差异不冒充 reference 像素一致。
@@ -40,3 +42,10 @@ PyPI 项目 `py-visactor-vchart`，GitHub owner/repo `py-VisActor/py-vchart`，w
 2026-11-07，py-mermaid 最终本机同候选 `VCHART-P4-batch-20261107T045154Z-dd03474c` SUCCESS，两侧源码运行期不变；2283 方法（供应方67、接入156、旧回归2060）、原生225×三后端、reference225、68规格API、七语法42输入×三后端通过。30张最终CPU原图实际查看，原版同SHA图绑定先前实际查看记录；两次消费方全新环境 wheel/sdist 正常解析正式GitHub wheel并核SHA、68类型/数学/实际ELK/SVG/PDF通过。Treemap原版透明白字缺陷作为明确差异，本端补可读默认文字，未降低墨迹门禁。其余高级限制与既有22条Mermaid分支缺口保留。
 
 报告本机地址：`http://127.0.0.1:8765/VCHART-P5-delivery-20261107T045848Z-3903b480/index.html`；335条记录/29页，2537附件与HTTP SHA、桌面/窄屏QA通过。机器汇总保存在相邻消费者仓库的 `references/vchart-verification-summary.json`。以上属于消费方本地接入，不是发布 py-mermaid 包，也不代表 PyPI 已上传。
+
+
+## PyPI 正式发布收口
+
+用户完成Trusted Publisher后，仅重跑失败publish/verify。第2次尝试上传成功，实际PyPI元数据与下载字节证实wheel SHA `45b66f82d0c74a8d15306b117d93ad2d88c26d2997719306336bcc92b7ce49e2`、sdist SHA `fee51a35d75b7f8572e76b0028d63c833f6e01c670c7ea41dc412386b3bcef7f` 与原验收完全相同，没有重新构建或替换文件。CI从PyPI下载后在两个新环境分别完成225例、68类型、36原生方法；PyPI核验ZIP原字节SHA `17d3174cf896e54893bae789f759fb610d379c08929eb4bddec3737573e49f21`，保存于 `test-runs/vchart-pypi-ci-42337813981-attempt2/`。
+
+消费者已改为 `py-visactor-vchart==0.1.1` 正常PyPI依赖；其wheel/sdist两个新环境的68类型、SVG/PDF、数学与ELK均通过，补充184方法通过。消费者渲染源码与先前完整验收逐字节一致，仅包装依赖/说明变更。补充证明为相邻py-mermaid仓库 `references/vchart-pypi-verification.json`，当前发布状态不再受invalid-publisher阻塞。
