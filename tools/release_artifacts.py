@@ -45,7 +45,7 @@ def build(out, *, allow_dirty=False):
     command([sys.executable, '-m', 'build', '--outdir', out / 'packages'], ROOT, out / 'build')
     files = sorted((out / 'packages').iterdir())
     assert len(files) == 2 and any(p.suffix == '.whl' for p in files) and any(p.name.endswith('.tar.gz') for p in files)
-    manifest = {'project': PROJECT['name'], 'version': PROJECT['version'], 'tag': 'v' + PROJECT['version'],
+    manifest = {'project': PROJECT['name'], 'version': PROJECT['version'], 'tag': PROJECT['name'] + '-v' + PROJECT['version'],
         'sourceCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
         'sourceTreeSha256': source_sha, 'dirtySource': dirty,
         'distributions': {p.name: identity(p) for p in files}}

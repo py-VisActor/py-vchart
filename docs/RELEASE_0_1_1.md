@@ -15,3 +15,7 @@
 发布工具：`tools/release_artifacts.py` 构建、哈希与仓库外 wheel/sdist 安装；`tools/release_github.py` 只上传已核对的原文件，拒绝覆盖不同既有 asset；`.github/workflows/publish-pypi.yml` 在 Windows/Linux × Canvas a18/a19 验证同组字节后通过 PyPI Trusted Publishing 上传，再核实际 PyPI 文件哈希和仓库外安装。
 
 PyPI 项目 `py-visactor-vchart`，GitHub owner/repo `py-VisActor/py-vchart`，workflow `publish-pypi.yml`，environment `pypi`。账户 Pending Publisher 尚待确认；无 token 时不通过其他项目凭据绕过配置。实际 CI、PyPI 回读及发布 URL 在通过后追加，不能由源码/本地记录推定已发布。
+
+首次 CI [42336972587](https://github.com/py-VisActor/py-vchart/actions/runs/42336972587) 因采集输入的 Git EOL 规范化失败，四组均如实保留失败。原本地采集 spec 是 CRLF，旧 `.gitattributes` 却将 Git blob 改成 LF，使检出字节与原 `capture.json` 哈希不符。修复仅将 SHA 锁定的 spec/GeoJSON/SVG 标为 `-text` 并保存原已采集字节；没有改任何基准哈希、图片、预期或产品代码。先逐例核对原 SHA，再验证 Git blob 与原始文件完全一致。
+
+失败候选 `v0.1.1` / `0cb6040` 和资产保持原样。正式候选改用独立 tag `py-visactor-vchart-v0.1.1`，Python 包版本仍为尚未上 PyPI 的 `0.1.1`；新构建和新的完整验收单独记录，不以旧失败当作通过。

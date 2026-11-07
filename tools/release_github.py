@@ -77,7 +77,7 @@ def download(tag, manifest_sha, out):
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('action', choices=['create', 'download', 'dispatch', 'status', 'promote'])
-    p.add_argument('--tag', default='v' + PROJECT['version'])
+    p.add_argument('--tag', default=PROJECT['name'] + '-v' + PROJECT['version'])
     p.add_argument('--manifest', type=Path)
     p.add_argument('--manifest-sha256')
     p.add_argument('--out', type=Path, required=True)

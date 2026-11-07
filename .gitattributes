@@ -1,1 +1,5 @@
-tests/cases/**/spec.json text eol=lf
+# Captured inputs are SHA-locked raw bytes, including their original EOLs.
+# Git must not rewrite them on add/checkout on either supported platform.
+tests/cases/**/spec.json -text
+tests/cases/**/geo.json -text
+tests/cases/**/source.svg -text
