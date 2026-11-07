@@ -7,10 +7,12 @@
 在 CPython 3.13 的 Windows x86-64 或 Linux x86-64 环境安装正式版 wheel：
 
 ```sh
-python -m pip install py-visactor-vchart==0.1.1
+python -m pip install "https://github.com/py-VisActor/py-vchart/releases/download/py-visactor-vchart-v0.1.1/py_visactor_vchart-0.1.1-py3-none-any.whl#sha256=45b66f82d0c74a8d15306b117d93ad2d88c26d2997719306336bcc92b7ce49e2"
 ```
 
 ## 本地开发
+
+0.1.1 已通过 Windows/Linux × Canvas a18/a19 验证并正式发布至 [GitHub Release](https://github.com/py-VisActor/py-vchart/releases/tag/py-visactor-vchart-v0.1.1)。PyPI 上传目前因账户缺少 Trusted Publisher 配置而返回 `invalid-publisher`，尚未上 PyPI；上面的正式文件地址可正常安装，文件及 SHA 与 CI 验收完全相同。实际状态见[发行记录](https://github.com/py-VisActor/py-vchart/blob/main/docs/RELEASE_0_1_1.md)。
 
 在项目根目录创建 CPython 3.13 虚拟环境，然后运行：
 

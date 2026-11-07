@@ -2,7 +2,7 @@
 
 2026-11-07，开始从已发布 GitHub `v0.1.0` / `f1ae8a7910b94cd4d2e9ef675ed7607b40b9eb57` 准备独立 0.1.1。旧 tag/asset 不改写。原始工作树干净；源码与发布工具修改分别由会话 owner 负责。
 
-源码实现与验证分开：P3 本地实现与修复已收口，当前准备 P4 同候选发行文件验收，尚未声明 PyPI 发布成功。旧 reference 严格 225 例保留，新默认 Canvas 单独验证全部 68 类型、累计原输入、可读内容/几何、三后端、多格式与资源隔离。Canvas 字形差异不冒充 reference 像素一致。
+源码实现与验证分开：下列计划与早期状态保留；实际 GitHub 正式发行及 PyPI 阻塞见“实际交付”。旧 reference 严格 225 例保留，新默认 Canvas 单独验证全部 68 类型、累计原输入、可读内容/几何、三后端、多格式与资源隔离。Canvas 字形差异不冒充 reference 像素一致。
 
 本地联合证据保存在相邻 py-mermaid 的独立标准日志目录（均未覆盖历史运行）：
 
@@ -19,3 +19,17 @@ PyPI 项目 `py-visactor-vchart`，GitHub owner/repo `py-VisActor/py-vchart`，w
 首次 CI [42336972587](https://github.com/py-VisActor/py-vchart/actions/runs/42336972587) 因采集输入的 Git EOL 规范化失败，四组均如实保留失败。原本地采集 spec 是 CRLF，旧 `.gitattributes` 却将 Git blob 改成 LF，使检出字节与原 `capture.json` 哈希不符。修复仅将 SHA 锁定的 spec/GeoJSON/SVG 标为 `-text` 并保存原已采集字节；没有改任何基准哈希、图片、预期或产品代码。先逐例核对原 SHA，再验证 Git blob 与原始文件完全一致。
 
 失败候选 `v0.1.1` / `0cb6040` 和资产保持原样。正式候选改用独立 tag `py-visactor-vchart-v0.1.1`，Python 包版本仍为尚未上 PyPI 的 `0.1.1`；新构建和新的完整验收单独记录，不以旧失败当作通过。
+
+## 实际交付
+
+正式源码提交 `ff16c91d38ab61e57d03b58579d5bf1beb2a1840`；[GitHub 正式发行](https://github.com/py-VisActor/py-vchart/releases/tag/py-visactor-vchart-v0.1.1) 已确认 `draft=false`、`prerelease=false`。此前失败候选仍单列保留。
+
+- [CI 42337813981](https://github.com/py-VisActor/py-vchart/actions/runs/42337813981)：Windows 2025 / Ubuntu 24.04 × Canvas a18 / a19 四组全部验证通过；每组分别仓库外安装 wheel/sdist、36 原生接口/字形负控方法及 225 图例。PyPI publish 步骤单独失败，不能把整个 run 冒称全绿。
+- 本机功能检查 `VCHART-P4-batch-20261107T041705Z-6c07df8d` 全部 SUCCESS，双方源码运行期未变；67 供应方测试、138 消费者方法、原生 225 ×三后端、旧 reference 225、原版 42 输入、Mermaid 30 正例/10 真负例/2 明确限制 ×三后端与 11 组旧回归均通过。
+- `VCHART-P4-FINAL-install-a18-batch-20261107T041705Z-f605c70c`、`VCHART-P4-FINAL-install-a19-batch-20261107T041705Z-eb17ef56`：本机两种 Canvas 的 wheel/sdist 四次真实仓库外安装通过。
+
+正式 wheel SHA-256：`45b66f82d0c74a8d15306b117d93ad2d88c26d2997719306336bcc92b7ce49e2`；源码包 SHA-256：`fee51a35d75b7f8572e76b0028d63c833f6e01c670c7ea41dc412386b3bcef7f`。原始 manifest 与文件一起发布，不覆盖历史资产。
+
+**PyPI 尚未发布**：实际上传返回 `invalid-publisher`。需在 PyPI 添加项目 `py-visactor-vchart` 的 Publisher，owner `py-VisActor`、repo `py-vchart`、workflow `publish-pypi.yml`、environment `pypi`；配置后可重跑失败的 publish job，复用同组已验收字节，再执行 PyPI 下载哈希/安装复核。GitHub 正式发行和安装不依赖该账户操作。
+
+消费者 py-mermaid 的七类 Mermaid 语法是独立验收范围；上述功能运行后人工看图发现宿主标题/配色/柱宽/描边边界问题，已另开集中修复与新同候选运行。不能把供应方正式发布或这份早期功能检查当作消费者最终视觉验收。供应方已发布文件和 tag 不因宿主修复而改写。
