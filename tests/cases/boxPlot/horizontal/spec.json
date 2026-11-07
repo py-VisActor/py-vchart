@@ -1,0 +1,49 @@
+{
+  "width": 400,
+  "height": 240,
+  "type": "boxPlot",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 3,
+        "lo": 1,
+        "hi": 4,
+        "min": 0,
+        "q1": 1,
+        "med": 2,
+        "q3": 3,
+        "max": 5
+      },
+      {
+        "k": "B",
+        "v": -2,
+        "lo": -2,
+        "hi": 2,
+        "min": -3,
+        "q1": -1,
+        "med": 0,
+        "q3": 1,
+        "max": 2
+      },
+      {
+        "k": "C",
+        "v": 6,
+        "lo": 2,
+        "hi": 8,
+        "min": 1,
+        "q1": 3,
+        "med": 4,
+        "q3": 5,
+        "max": 8
+      }
+    ]
+  },
+  "minField": "min",
+  "q1Field": "q1",
+  "medianField": "med",
+  "q3Field": "q3",
+  "maxField": "max",
+  "direction": "horizontal",
+  "yField": "k"
+}

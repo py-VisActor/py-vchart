@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\boxPlot\\outliers\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\boxPlot\\outliers\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "98131c824616f67d7562cc86f378a56befb50e0a1a85bc71e14413cf6637865b",
+  "pngSha256": "f8e02c32c1b2cd583501426cf4430df00c3d2087ef6581c547b2b81a3066d251"
+}

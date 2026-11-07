@@ -1,0 +1,159 @@
+{
+  "plot": [
+    78,
+    16,
+    546,
+    404
+  ],
+  "labels": [
+    {
+      "text": "0.6",
+      "x": 66,
+      "y": 16,
+      "align": "right",
+      "baseline": "top"
+    },
+    {
+      "text": "0.4",
+      "x": 66,
+      "y": 73.71428571428564,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.2",
+      "x": 66,
+      "y": 131.42857142857142,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 66,
+      "y": 189.1428571428571,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-0.2",
+      "x": 66,
+      "y": 246.85714285714283,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-0.4",
+      "x": 66,
+      "y": 304.57142857142856,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-0.6",
+      "x": 66,
+      "y": 362.2857142857143,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-0.8",
+      "x": 66,
+      "y": 420,
+      "align": "right",
+      "baseline": "bottom"
+    },
+    {
+      "text": "1",
+      "x": 78,
+      "y": 428,
+      "align": "left",
+      "baseline": "top"
+    },
+    {
+      "text": "1.5",
+      "x": 169,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "2",
+      "x": 260,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "2.5",
+      "x": 351,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "3",
+      "x": 442,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "3.5",
+      "x": 533,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "4",
+      "x": 624,
+      "y": 428,
+      "align": "right",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        1,
+        4
+      ],
+      "range": [
+        0,
+        546
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -0.8,
+        0.6
+      ],
+      "range": [
+        404,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.point": [
+      [
+        78,
+        160.28571428571462
+      ],
+      [
+        260,
+        131.42857142857162
+      ],
+      [
+        442,
+        391.14285714285694
+      ],
+      [
+        624,
+        73.71428571428561
+      ]
+    ]
+  }
+}

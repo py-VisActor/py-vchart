@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\stacked\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\stacked\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "9973cbc00189343ef6d0f06d718f5ad0f2b6a8cba3f7a74c9bc813b085b3a4cb",
+  "pngSha256": "bc93b16f99ff608c9ce39f712f994edd8b8e4823014b50f0d6793b37cf5d14a0"
+}

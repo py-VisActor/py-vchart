@@ -1,0 +1,13 @@
+{
+  "plot": [
+    20,
+    20,
+    320,
+    240
+  ],
+  "labels": [],
+  "axes": [],
+  "marks": {
+    "circlePacking": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\rankingBar\\first-frame\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\rankingBar\\first-frame\\expected.png",
+  "width": 400,
+  "height": 300,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "inputSha256": "ea0d70e0c97a181ecc9313a81493f80d14fc427629a7021592c3f4558beaed52",
+  "pngSha256": "5a5511f447bd0c67c74e2f75a82c2a5e7f3227815dd3253615f3ec7c61a55d07"
+}

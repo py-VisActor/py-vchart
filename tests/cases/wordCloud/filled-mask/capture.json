@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\filled-mask\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\filled-mask\\expected.png",
+  "width": 360,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "a353efa0f100b564aae19042202ba2dd599e3ecf85959f93145c78315609c480",
+  "pngSha256": "e4671c252ab65a73d914962d7fa734a24692bb2c2576bb9c73b22af20b973c35"
+}

@@ -1,0 +1,74 @@
+{
+  "width": 400,
+  "height": 240,
+  "type": "common",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 3,
+        "lo": 1,
+        "hi": 40,
+        "min": 0,
+        "q1": 1,
+        "med": 2,
+        "q3": 3,
+        "max": 5
+      },
+      {
+        "k": "B",
+        "v": -2,
+        "lo": -2,
+        "hi": 60,
+        "min": -3,
+        "q1": -1,
+        "med": 0,
+        "q3": 1,
+        "max": 2
+      },
+      {
+        "k": "C",
+        "v": 6,
+        "lo": 2,
+        "hi": 20,
+        "min": 1,
+        "q1": 3,
+        "med": 4,
+        "q3": 5,
+        "max": 8
+      }
+    ]
+  },
+  "series": [
+    {
+      "type": "bar",
+      "xField": "k",
+      "yField": "v"
+    },
+    {
+      "type": "line",
+      "xField": "k",
+      "yField": "hi"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "type": "band"
+    },
+    {
+      "orient": "left",
+      "type": "linear",
+      "seriesIndex": [
+        0
+      ]
+    },
+    {
+      "orient": "right",
+      "type": "linear",
+      "seriesIndex": [
+        1
+      ]
+    }
+  ]
+}

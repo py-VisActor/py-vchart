@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\candlestick\\ohlc\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\candlestick\\ohlc\\expected.png",
+  "width": 400,
+  "height": 250,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "inputSha256": "d592bf39c24d2568782a0010b5ef3d4a2c2a58aa5eac60d5f299f51bb1f83379",
+  "pngSha256": "2ec457682e6640420d23dd08ea0c1521f2bc665ab21f6ec79fed96c2adb2e608"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "map",
+  "map": "local",
+  "nameField": "name",
+  "seriesField": "group",
+  "width": 340,
+  "height": 240,
+  "padding": 15,
+  "data": {
+    "values": [
+      {
+        "name": "A",
+        "group": "alpha"
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  },
+  "area": {
+    "style": {
+      "fill": "#ff8844",
+      "stroke": "#445577",
+      "lineWidth": 2
+    }
+  }
+}

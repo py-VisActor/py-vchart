@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sequenceScatterLink\\first-frame\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sequenceScatterLink\\first-frame\\expected.png",
+  "width": 400,
+  "height": 300,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "inputSha256": "7142a52f5d2ba4fbf3c4f0721ad7beeb258fb94caf8024803fc75b73b5243ad2",
+  "pngSha256": "7276a67fd9cd5dc0bd29f6cd332fcb8590edcc702511aa24388fe76adb3f9340"
+}

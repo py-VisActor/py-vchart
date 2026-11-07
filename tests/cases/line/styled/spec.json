@@ -1,0 +1,32 @@
+{
+  "type": "line",
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "values": [
+      {
+        "x": "A",
+        "y": 8
+      },
+      {
+        "x": "B",
+        "y": -3
+      },
+      {
+        "x": "C",
+        "y": 5
+      }
+    ]
+  },
+  "line": {
+    "style": {
+      "stroke": "#bd3344",
+      "lineWidth": 3
+    }
+  },
+  "point": {
+    "visible": false
+  }
+}

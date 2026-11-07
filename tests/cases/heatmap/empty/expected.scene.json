@@ -1,0 +1,30 @@
+{
+  "plot": [
+    20,
+    20,
+    360,
+    200
+  ],
+  "labels": [],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [],
+      "range": [
+        0,
+        360
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [],
+      "range": [
+        200,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "cell": []
+  }
+}

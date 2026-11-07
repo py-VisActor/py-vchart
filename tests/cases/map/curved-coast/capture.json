@@ -1,0 +1,14 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\curved-coast\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\curved-coast\\expected.png",
+  "width": 410,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "geojsonSha256": "86b01578007231bf1132360c03120c2e7a524224704ddbb5ffb9a708aeeb2ba4",
+  "inputSha256": "76822876db27a421d210e3b679748346a6617a8b90fa5174a8f612560927e493",
+  "pngSha256": "2fb0ae0fbd59c7f6d818671c2632f028fd8723eb0e7bcf12c8fd484c9fabbfd7"
+}

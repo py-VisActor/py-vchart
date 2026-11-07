@@ -1,0 +1,27 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "k",
+  "yField": "v",
+  "type": "mosaic",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 2,
+        "size": 5
+      },
+      {
+        "k": "B",
+        "v": 3,
+        "size": 1
+      },
+      {
+        "k": "C",
+        "v": 1,
+        "size": 2
+      }
+    ]
+  },
+  "bandWidthField": "size"
+}

@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\gauge\\full\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\gauge\\full\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "6168f900edf07d00aefc86bd7ec287fb7a77dc2a75888d439c5cf164a12760b7",
+  "pngSha256": "38f7f4cacaed2bae1c80844ead0737568a0003aab6cb6509b6eae6529e74de70"
+}

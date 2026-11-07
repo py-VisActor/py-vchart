@@ -1,0 +1,43 @@
+{
+  "type": "rose",
+  "width": 360,
+  "height": 280,
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "g": "p",
+        "v": 2
+      },
+      {
+        "k": "A",
+        "g": "q",
+        "v": 3
+      },
+      {
+        "k": "B",
+        "g": "p",
+        "v": 4
+      },
+      {
+        "k": "B",
+        "g": "q",
+        "v": 2
+      },
+      {
+        "k": "C",
+        "g": "p",
+        "v": 3
+      },
+      {
+        "k": "C",
+        "g": "q",
+        "v": 1
+      }
+    ]
+  },
+  "categoryField": "k",
+  "seriesField": "g",
+  "stack": true
+}

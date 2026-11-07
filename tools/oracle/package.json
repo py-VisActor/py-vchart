@@ -1,0 +1,17 @@
+{
+  "name": "py-vchart-oracle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.mjs"
+  },
+  "dependencies": {
+    "@visactor/vchart": "2.2.1",
+    "@visactor/vchart-extension": "2.2.1",
+    "@visactor/vchart-statplots": "2.2.1",
+    "playwright": "1.65.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

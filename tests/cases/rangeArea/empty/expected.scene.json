@@ -1,0 +1,76 @@
+{
+  "plot": [
+    49,
+    26,
+    331,
+    188
+  ],
+  "labels": [
+    {
+      "text": "1",
+      "x": 37,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.8",
+      "x": 37,
+      "y": 63.599999999999994,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.6",
+      "x": 37,
+      "y": 101.2,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.4",
+      "x": 37,
+      "y": 138.8,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.2",
+      "x": 37,
+      "y": 176.4,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 37,
+      "y": 214,
+      "align": "right",
+      "baseline": "middle"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [],
+      "range": [
+        0,
+        331
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        1
+      ],
+      "range": [
+        188,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "area": []
+  }
+}

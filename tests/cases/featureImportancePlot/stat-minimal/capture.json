@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\featureImportancePlot\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\featureImportancePlot\\expected.png",
+  "width": 640,
+  "height": 480,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "statplots",
+  "addonSha256": "b0f19d68a11066bb8b81470ef5a0398f10e016a5939ccdc61db72fdd7702f6ba",
+  "inputSha256": "8fafeaf179e1eb287c456db4fdfad36e6748ce9b2af5c5b78dfd3435d27dd2c0",
+  "pngSha256": "daa3e0376a5552ffd919b299d12c5b37f10b5c38eeb46043c90ce5e55093e990"
+}

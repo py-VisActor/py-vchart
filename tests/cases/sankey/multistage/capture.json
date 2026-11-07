@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\multistage\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\multistage\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "4fc06f975f0d54946fe9d62836be47d97965fa313d78d28038ea6e3941f4293d",
+  "pngSha256": "9e39c45d28ca61bbb1188879ebb28b3947291d01711bdc07cfeff55b2cc63889"
+}

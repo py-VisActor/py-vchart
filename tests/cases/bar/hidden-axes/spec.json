@@ -1,0 +1,35 @@
+{
+  "type": "bar",
+  "width": 400,
+  "height": 240,
+  "animation": false,
+  "data": [
+    {
+      "id": "sales",
+      "values": [
+        {
+          "month": "Jan",
+          "value": 8
+        },
+        {
+          "month": "Feb",
+          "value": -3
+        }
+      ]
+    }
+  ],
+  "xField": "month",
+  "yField": "value",
+  "axes": [
+    {
+      "orient": "bottom",
+      "visible": false
+    },
+    {
+      "orient": "left",
+      "visible": false,
+      "min": -4,
+      "max": 10
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "reason": "Chromium and Skia rasterize the 14px black stack-label glyphs differently on Windows. Exact text and anchors are checked in expected.scene.json. Only these four glyph neighborhoods receive the local peak limit; flat pixels and global aggregate limits remain strict.",
+  "peak_limit": 160,
+  "regions": [[91,105,102,120], [164,181,181,196], [242,26,254,41], [318,26,329,41]]
+}

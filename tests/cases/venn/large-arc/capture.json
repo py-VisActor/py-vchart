@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\large-arc\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\large-arc\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "c5ae4f3c34c48a32ad333dc4e70a86896ec9b35130e5fc7b250265b4740e5a36",
+  "pngSha256": "b64ca6e0b7162c8a66c0f7ebadc83849214bbd3cf11fe4276766bf18ffc6b926"
+}

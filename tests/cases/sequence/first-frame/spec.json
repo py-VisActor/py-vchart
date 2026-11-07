@@ -1,0 +1,42 @@
+{
+  "type": "sequence",
+  "width": 400,
+  "height": 300,
+  "data": [
+    {
+      "id": "a",
+      "values": [
+        {
+          "k": "A",
+          "v": 1
+        },
+        {
+          "k": "B",
+          "v": 3
+        }
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "type": "band",
+      "orient": "bottom"
+    }
+  ],
+  "series": [
+    {
+      "type": "bar",
+      "xField": "k",
+      "yField": "v",
+      "dataId": "a",
+      "height": 96
+    },
+    {
+      "type": "line",
+      "xField": "k",
+      "yField": "v",
+      "dataId": "a",
+      "height": 80
+    }
+  ]
+}

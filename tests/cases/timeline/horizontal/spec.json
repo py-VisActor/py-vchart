@@ -1,0 +1,34 @@
+{
+  "type": "timeline",
+  "width": 400,
+  "height": 260,
+  "timeField": "time",
+  "seriesField": "lane",
+  "direction": "horizontal",
+  "title": {
+    "visible": false
+  },
+  "subTitle": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "time": "Q1",
+        "lane": "A"
+      },
+      {
+        "time": "Q2",
+        "lane": "A"
+      },
+      {
+        "time": "Q2",
+        "lane": "B"
+      },
+      {
+        "time": "Q3",
+        "lane": "B"
+      }
+    ]
+  }
+}

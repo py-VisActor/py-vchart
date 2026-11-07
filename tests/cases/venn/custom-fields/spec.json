@@ -1,0 +1,36 @@
+{
+  "type": "venn",
+  "width": 360,
+  "height": 280,
+  "categoryField": "members",
+  "valueField": "count",
+  "label": {
+    "visible": false
+  },
+  "overlapLabel": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "members": [
+          "B"
+        ],
+        "count": 4
+      },
+      {
+        "members": [
+          "A"
+        ],
+        "count": 8
+      },
+      {
+        "members": [
+          "B",
+          "A"
+        ],
+        "count": 2
+      }
+    ]
+  }
+}

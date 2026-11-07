@@ -1,0 +1,89 @@
+{
+  "plot": [
+    40,
+    26,
+    340,
+    170
+  ],
+  "labels": [
+    {
+      "text": "8",
+      "x": 28,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "6",
+      "x": 28,
+      "y": 68.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "4",
+      "x": 28,
+      "y": 111,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "2",
+      "x": 28,
+      "y": 153.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 28,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "A",
+      "x": 210,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "A"
+      ],
+      "range": [
+        0,
+        340
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        8
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "segments": [
+    [
+      [
+        210,
+        26
+      ]
+    ]
+  ],
+  "points": [
+    [
+      210,
+      26
+    ]
+  ]
+}

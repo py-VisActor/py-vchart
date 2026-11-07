@@ -1,0 +1,13 @@
+{
+  "type": "circlePacking",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "valueField": "value",
+  "label": {
+    "visible": false
+  },
+  "data": {
+    "values": []
+  }
+}

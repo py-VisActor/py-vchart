@@ -1,0 +1,97 @@
+{
+  "plot": [
+    45,
+    26,
+    215,
+    170
+  ],
+  "labels": [
+    {
+      "text": "9",
+      "x": 33,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "6",
+      "x": 33,
+      "y": 68.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "3",
+      "x": 33,
+      "y": 111,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 33,
+      "y": 153.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-3",
+      "x": 33,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "Jan",
+      "x": 109.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "Feb",
+      "x": 195.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "Jan",
+        "Feb"
+      ],
+      "range": [
+        0,
+        215
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -3,
+        9
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "bars": [
+    [
+      70.8,
+      40.16666666666667,
+      148.2,
+      153.5
+    ],
+    [
+      156.8,
+      153.5,
+      234.2,
+      196
+    ]
+  ]
+}

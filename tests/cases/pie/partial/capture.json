@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pie\\partial\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pie\\partial\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "da329dce7bb14579e4ab76d43f65c8354f0d7faa0bc6032141d1b8485a6fd760",
+  "pngSha256": "8a1650de42d433232304c4459797880db01a0f527461ba8889e3f18240f7037c"
+}

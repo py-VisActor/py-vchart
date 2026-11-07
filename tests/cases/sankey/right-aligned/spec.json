@@ -1,0 +1,75 @@
+{
+  "type": "sankey",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "sourceField": "source",
+  "targetField": "target",
+  "valueField": "value",
+  "label": {
+    "visible": false
+  },
+  "data": [
+    {
+      "values": [
+        {
+          "nodes": [
+            {
+              "name": "A"
+            },
+            {
+              "name": "B"
+            },
+            {
+              "name": "C"
+            },
+            {
+              "name": "D"
+            },
+            {
+              "name": "E"
+            },
+            {
+              "name": "F",
+              "value": 5
+            }
+          ],
+          "links": [
+            {
+              "source": 0,
+              "target": 2,
+              "value": 4
+            },
+            {
+              "source": 1,
+              "target": 2,
+              "value": 2
+            },
+            {
+              "source": 1,
+              "target": 3,
+              "value": 3
+            },
+            {
+              "source": 2,
+              "target": 4,
+              "value": 6
+            },
+            {
+              "source": 3,
+              "target": 4,
+              "value": 3
+            },
+            {
+              "source": 5,
+              "target": 4,
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nodeAlign": "right",
+  "crossNodeAlign": "end"
+}

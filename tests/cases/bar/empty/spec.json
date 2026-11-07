@@ -1,0 +1,14 @@
+{
+  "type": "bar",
+  "width": 400,
+  "height": 240,
+  "animation": false,
+  "data": [
+    {
+      "id": "sales",
+      "values": []
+    }
+  ],
+  "xField": "month",
+  "yField": "value"
+}

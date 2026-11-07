@@ -1,0 +1,90 @@
+{
+  "plot": [
+    49,
+    26,
+    331,
+    170
+  ],
+  "labels": [
+    {
+      "text": "1",
+      "x": 37,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.8",
+      "x": 37,
+      "y": 59.99999999999999,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.6",
+      "x": 37,
+      "y": 94,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.4",
+      "x": 37,
+      "y": 128,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.2",
+      "x": 37,
+      "y": 162,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 37,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "None",
+      "x": 214.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "None"
+      ],
+      "range": [
+        0,
+        331
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        1
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "bars": [
+    [
+      121.40625,
+      196,
+      307.59375,
+      196
+    ]
+  ]
+}

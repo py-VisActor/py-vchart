@@ -1,0 +1,34 @@
+{
+  "plot": [
+    20,
+    20,
+    360,
+    200
+  ],
+  "labels": [],
+  "axes": [
+    {
+      "orient": "left",
+      "domain": [],
+      "range": [
+        200,
+        0
+      ]
+    },
+    {
+      "orient": "bottom",
+      "domain": [
+        0,
+        1
+      ],
+      "range": [
+        0,
+        360
+      ]
+    }
+  ],
+  "marks": {
+    "track": [],
+    "progress": []
+  }
+}

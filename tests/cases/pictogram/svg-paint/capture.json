@@ -1,0 +1,16 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pictogram\\svg-paint\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pictogram\\svg-paint\\expected.png",
+  "width": 400,
+  "height": 300,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "svgSha256": "8863ff759b43195112c235d3554eada0a76fd469c1573a44c45d7f7cdcaaec6c",
+  "inputSha256": "9a2e00875ce1a9d213fab79b35b25baf4f0b9e248d8b5d94961d642d2ba7357a",
+  "pngSha256": "2165b3053d88c5f1d92f575974b2a08a864c246065b5e44f66f5c4faffc404ec"
+}

@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\default-filling\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\default-filling\\expected.png",
+  "width": 250,
+  "height": 220,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "56fb5935e1ab6b82091368934451b5d19d0f016e9492149e17ac64377e2530e5",
+  "pngSha256": "75943615bf1da59ba9ba63275c0804801da2229fe71f8d979f91212b4df204fb"
+}

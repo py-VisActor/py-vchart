@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pie\\ring\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pie\\ring\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "dc570ed6cda3f203bde948768c4d1c5250d338df6e43db183763723960f45f82",
+  "pngSha256": "9f99fd03491248354a6883db0c5dd6d120da4d10c97e295f7290295e2f10df25"
+}

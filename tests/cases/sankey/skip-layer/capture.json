@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\skip-layer\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\skip-layer\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "40e731064a41866763405d385c3ac840cd520ca7fcb9c3d5254a6ef4a1a39475",
+  "pngSha256": "524e3d73dd44079290423e7a0428b3138badeb4ab7ceee8ad4b103c7cd3dbc7f"
+}

@@ -1,0 +1,83 @@
+{
+  "plot": [
+    45,
+    26,
+    335,
+    170
+  ],
+  "labels": [
+    {
+      "text": "0",
+      "x": 33,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-2",
+      "x": 33,
+      "y": 68.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-4",
+      "x": 33,
+      "y": 111,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-6",
+      "x": 33,
+      "y": 153.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-8",
+      "x": 33,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "Loss",
+      "x": 212.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "Loss"
+      ],
+      "range": [
+        0,
+        335
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -8,
+        0
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "bars": [
+    [
+      118.28125,
+      26,
+      306.71875,
+      196
+    ]
+  ]
+}

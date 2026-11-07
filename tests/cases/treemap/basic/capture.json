@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\treemap\\basic\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\treemap\\basic\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "de7cd701400278c14b0ce47d8dbee0e0e84213104247573c070fc5572f3c849b",
+  "pngSha256": "4efc92fcd0b9c853bbd41fd83b1d5cdc8468391825823d7f27c3f3723222ebb4"
+}

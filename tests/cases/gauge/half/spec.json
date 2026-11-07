@@ -1,0 +1,17 @@
+{
+  "type": "gauge",
+  "width": 360,
+  "height": 280,
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 0.6
+      }
+    ]
+  },
+  "categoryField": "k",
+  "startAngle": -180,
+  "endAngle": 0
+}

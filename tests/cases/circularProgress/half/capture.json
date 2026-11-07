@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circularProgress\\half\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circularProgress\\half\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "3aa3b96e727b8df3df9f076c8bc2bd565e281732dd60579d2a81f55d06e71a84",
+  "pngSha256": "75f75e1d0264ccbfb89b4e112299c27bd8dce50ad5a2312f81136a04c0989900"
+}

@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\learningCurve\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\learningCurve\\expected.png",
+  "width": 640,
+  "height": 480,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "statplots",
+  "addonSha256": "b0f19d68a11066bb8b81470ef5a0398f10e016a5939ccdc61db72fdd7702f6ba",
+  "inputSha256": "6861dde640b3ff5a0b59943cabafe79e3c99ccc7ae7c7ed259fa2b968a5b1232",
+  "pngSha256": "e5144707fc00c22d3b20fabe2466e78086c76bc93bbdb99f44301df71cba2780"
+}

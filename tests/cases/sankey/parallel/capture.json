@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\parallel\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\parallel\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "550450e813a4f4244c867dfd1ad59c8aa126facc9a90a27e3ffc8417a7c22770",
+  "pngSha256": "9f11c3fff6a68b6e24a8b6e797859d1d647db6db766468f86a71a1c83330efd0"
+}

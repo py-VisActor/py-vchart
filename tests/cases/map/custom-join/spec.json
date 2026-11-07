@@ -1,0 +1,25 @@
+{
+  "type": "map",
+  "map": "local",
+  "nameField": "region",
+  "seriesField": "group",
+  "width": 340,
+  "height": 240,
+  "padding": 15,
+  "data": {
+    "values": [
+      {
+        "region": "1",
+        "group": "z"
+      },
+      {
+        "region": "0",
+        "group": "a"
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  },
+  "nameProperty": "district"
+}

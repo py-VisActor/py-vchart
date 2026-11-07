@@ -1,0 +1,14 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\islands-hole\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\islands-hole\\expected.png",
+  "width": 340,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "geojsonSha256": "c64aa75f7c87e91dbde8479b26dc5dbe35f704522512d633c6b4f219a043941b",
+  "inputSha256": "15955e6fae70aa53af14eec7359ec92b6cd45e9ed25f3a034127abd689a248ba",
+  "pngSha256": "a1ec59c373dbdf5ff9af4243a8caca8139065b0b2b2dc92af537894debbcc0ea"
+}

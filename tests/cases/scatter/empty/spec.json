@@ -1,0 +1,10 @@
+{
+  "type": "scatter",
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "values": []
+  }
+}

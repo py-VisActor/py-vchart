@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\residualPlot\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\residualPlot\\expected.png",
+  "width": 640,
+  "height": 480,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "statplots",
+  "addonSha256": "b0f19d68a11066bb8b81470ef5a0398f10e016a5939ccdc61db72fdd7702f6ba",
+  "inputSha256": "78a12b67f086610ae9485588b762b23d1a6de3b4fdc7cee2e57d6b5317634355",
+  "pngSha256": "194393cb5856b042724090f1e0ac2b13654e94020d71c17872b7d552714e907d"
+}

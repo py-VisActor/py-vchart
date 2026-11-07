@@ -1,0 +1,72 @@
+{
+  "type": "combinationCandlestick",
+  "width": 400,
+  "height": 300,
+  "candlestickSeries": {
+    "type": "candlestick",
+    "xField": "day",
+    "openField": "open",
+    "highField": "high",
+    "lowField": "low",
+    "closeField": "close",
+    "data": {
+      "values": [
+        {
+          "day": "A",
+          "open": 4,
+          "high": 8,
+          "low": 1,
+          "close": 7
+        },
+        {
+          "day": "B",
+          "open": 7,
+          "high": 9,
+          "low": 3,
+          "close": 4
+        },
+        {
+          "day": "C",
+          "open": 5,
+          "high": 7,
+          "low": 3,
+          "close": 5
+        }
+      ],
+      "id": "market"
+    },
+    "id": "ohlc"
+  },
+  "axes": [
+    {
+      "orient": "bottom",
+      "type": "band"
+    },
+    {
+      "orient": "left",
+      "type": "linear"
+    }
+  ],
+  "previewSeries": {
+    "id": "preview",
+    "type": "bar",
+    "xField": "day",
+    "yField": "volume",
+    "data": {
+      "values": [
+        {
+          "day": "A",
+          "volume": 8
+        },
+        {
+          "day": "B",
+          "volume": 9
+        },
+        {
+          "day": "C",
+          "volume": 7
+        }
+      ]
+    }
+  }
+}

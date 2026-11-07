@@ -1,0 +1,30 @@
+{
+  "width": 400,
+  "height": 240,
+  "type": "common",
+  "data": {
+    "values": []
+  },
+  "series": [
+    {
+      "type": "bar",
+      "xField": "k",
+      "yField": "v"
+    },
+    {
+      "type": "line",
+      "xField": "k",
+      "yField": "hi"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "type": "band"
+    },
+    {
+      "orient": "left",
+      "type": "linear"
+    }
+  ]
+}

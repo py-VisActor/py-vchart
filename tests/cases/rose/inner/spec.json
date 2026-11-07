@@ -1,0 +1,28 @@
+{
+  "type": "rose",
+  "width": 360,
+  "height": 280,
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 2
+      },
+      {
+        "k": "B",
+        "v": 4
+      },
+      {
+        "k": "C",
+        "v": 3
+      },
+      {
+        "k": "D",
+        "v": 1
+      }
+    ]
+  },
+  "categoryField": "k",
+  "innerRadius": 0.3
+}

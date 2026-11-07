@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\diamond-mask\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\diamond-mask\\expected.png",
+  "width": 360,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "68ec10d74aa7293e625218cc14ccb0965ad47d9f5dcc596e0091c5022a0915ee",
+  "pngSha256": "f6c24e94f902dc7da93f350a93391d46961b207e14a48a641ac27b4359cf1484"
+}

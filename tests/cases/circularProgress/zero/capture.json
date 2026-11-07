@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circularProgress\\zero\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circularProgress\\zero\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "fb52052f519709b708aa6442883bd0d9f35c2366dab6889414fd27da3a209aac",
+  "pngSha256": "c63442a8f5d717c0fdc4d30779fa6d6f9c25ef26dde11d681814d0d55e249e3e"
+}

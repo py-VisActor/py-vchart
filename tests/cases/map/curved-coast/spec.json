@@ -1,0 +1,20 @@
+{
+  "type": "map",
+  "map": "local",
+  "nameField": "name",
+  "seriesField": "group",
+  "width": 410,
+  "height": 280,
+  "padding": 15,
+  "data": {
+    "values": [
+      {
+        "name": "A",
+        "group": "alpha"
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  }
+}

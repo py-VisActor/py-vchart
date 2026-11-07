@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\common\\unequal-domains\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\common\\unequal-domains\\expected.png",
+  "width": 500,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "06001d7e55d1c5f21159da1b0f8d3d0460467ab8da0ab4621c8188fe42c4b28e",
+  "pngSha256": "a51291d431d2b7334dfa929bf8bd5c22efc89931010e48b0307d8006724b28a7"
+}

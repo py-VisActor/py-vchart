@@ -1,0 +1,43 @@
+{
+  "type": "venn",
+  "width": 360,
+  "height": 280,
+  "categoryField": "sets",
+  "valueField": "value",
+  "seriesField": "sets",
+  "label": {
+    "visible": false
+  },
+  "overlapLabel": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "sets": [
+          "A"
+        ],
+        "value": 8
+      },
+      {
+        "sets": [
+          "B"
+        ],
+        "value": 12
+      },
+      {
+        "sets": [
+          "C"
+        ],
+        "value": 4
+      },
+      {
+        "sets": [
+          "A",
+          "B"
+        ],
+        "value": 2
+      }
+    ]
+  }
+}

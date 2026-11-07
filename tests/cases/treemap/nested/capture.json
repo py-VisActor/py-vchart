@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\treemap\\nested\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\treemap\\nested\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "cc99fef215d140633efb8a1009f83870ba9fcebef06bb3580e4bd42997471fd1",
+  "pngSha256": "d0878b42f41b0855267155c77d00de9a294d1597d4642242217ab2ef111ea633"
+}

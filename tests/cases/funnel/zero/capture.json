@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\funnel\\zero\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\funnel\\zero\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "241c74a794b988acab04a17d30710819f08a69b14219faa96550b845d233e158",
+  "pngSha256": "c73274941ccafa540a6b3d867455ba0106ff5d94b3ef7183f583da15a3a54d55"
+}

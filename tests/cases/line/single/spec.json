@@ -1,0 +1,15 @@
+{
+  "type": "line",
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "values": [
+      {
+        "x": "A",
+        "y": 8
+      }
+    ]
+  }
+}

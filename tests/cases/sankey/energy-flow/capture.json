@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\energy-flow\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sankey\\energy-flow\\expected.png",
+  "width": 820,
+  "height": 540,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "85db9bb9331db04c9263ce80d3d3cca30189b6c413930d2e5d471070b90a389c",
+  "pngSha256": "c933153c2c4337cdd51b7714e0f09823e1ec92a8624459e813deb6c446e5d70d"
+}

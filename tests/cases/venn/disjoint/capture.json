@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\disjoint\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\disjoint\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "f9b4dbca17731efcdee520b60f9ab6644f7a1b79354426f032fc121eeafe6795",
+  "pngSha256": "5a460b8575bdba902ebe7dcdd4520ca01d1560b5d8e80651cf73614345be0857"
+}

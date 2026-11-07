@@ -1,0 +1,37 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "type": "heatmap",
+  "data": {
+    "values": [
+      {
+        "x": "A",
+        "y": "North",
+        "v": 1
+      },
+      {
+        "x": "A",
+        "y": "South",
+        "v": 3
+      },
+      {
+        "x": "B",
+        "y": "North",
+        "v": 2
+      }
+    ]
+  },
+  "valueField": "v",
+  "axes": [
+    {
+      "orient": "bottom",
+      "type": "band"
+    },
+    {
+      "orient": "left",
+      "type": "band"
+    }
+  ]
+}

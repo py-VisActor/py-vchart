@@ -1,0 +1,10 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "k",
+  "yField": "v",
+  "type": "area",
+  "data": {
+    "values": []
+  }
+}

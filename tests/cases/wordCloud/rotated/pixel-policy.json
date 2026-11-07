@@ -1,0 +1,12 @@
+{
+  "reason": "Chromium and Skia differ on these Arial glyph edge pixels. Word content, size, rotation, anchors, flat pixels, and full-frame aggregate limits are checked independently.",
+  "peak_limit": 195,
+  "regions": [
+    [
+      190,
+      123,
+      193,
+      127
+    ]
+  ]
+}

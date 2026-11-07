@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\kdePlot\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\kdePlot\\expected.png",
+  "width": 640,
+  "height": 480,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "statplots",
+  "addonSha256": "b0f19d68a11066bb8b81470ef5a0398f10e016a5939ccdc61db72fdd7702f6ba",
+  "inputSha256": "5c26f33f6a4e56820d39e00dd0932d7038e486368d97f8b60f3b8251ef0e656b",
+  "pngSha256": "4e4d9bc3b2e0b0337b3a961aed2adf6fcb28145c0091f47c8cd9b9f5e9529ac1"
+}

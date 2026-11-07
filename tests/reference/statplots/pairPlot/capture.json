@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\pairPlot\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\reference\\statplots\\pairPlot\\expected.png",
+  "width": 640,
+  "height": 480,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "statplots",
+  "addonSha256": "b0f19d68a11066bb8b81470ef5a0398f10e016a5939ccdc61db72fdd7702f6ba",
+  "inputSha256": "33177cc98d9653f952d3640b5ac3825b3456ce770058a91ef4ede9ec52d39d1c",
+  "pngSha256": "8a4b40c99d2888220af1e90d44976a81292294e867695d424736762bb48dd21f"
+}

@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\heatmap\\empty\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\heatmap\\empty\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "34b231c9de67f029a65ecfe2fe9fffcf4cfa2329960917c1d7f9c93d4730b539",
+  "pngSha256": "2367699a95b3a9b05f8beef74e7ab27be1bd16afc0ead87e05b2661c5ee0c8a5"
+}

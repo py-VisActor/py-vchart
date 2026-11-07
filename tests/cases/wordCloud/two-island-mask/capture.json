@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\two-island-mask\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\two-island-mask\\expected.png",
+  "width": 360,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "969999d23b937a60414bc59c707bc9250bc72ad09e87a6a735e8656fed5bcd3d",
+  "pngSha256": "220ac4e324705a074b9cd2a54d7ce5d24608d2b3990641a734b12fca54d777e8"
+}

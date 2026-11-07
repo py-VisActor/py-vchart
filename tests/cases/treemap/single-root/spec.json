@@ -1,0 +1,27 @@
+{
+  "type": "treemap",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "valueField": "value",
+  "data": {
+    "values": [
+      {
+        "name": "root",
+        "children": [
+          {
+            "name": "A",
+            "value": 5
+          },
+          {
+            "name": "B",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  }
+}

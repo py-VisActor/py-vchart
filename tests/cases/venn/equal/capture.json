@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\equal\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\venn\\equal\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "7ed6a1500460e53d3a70ea83584ddc8033218a0ed4d6c9a60c282149a04baee8",
+  "pngSha256": "d103beaf258c79512978a4caa7658b3cccf000d3fe5333cdc75047d0eced6962"
+}

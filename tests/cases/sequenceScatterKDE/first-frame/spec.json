@@ -1,0 +1,31 @@
+{
+  "type": "sequenceScatterKDE",
+  "width": 400,
+  "height": 300,
+  "xField": "x",
+  "yField": "y",
+  "seriesField": "label",
+  "data": {
+    "0": [
+      {
+        "x": 1,
+        "y": 1,
+        "label": "0",
+        "id": "a",
+        "confidence": 0.8
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "label": "1",
+        "id": "b",
+        "confidence": 1
+      }
+    ]
+  },
+  "infoLabel": {
+    "style": {
+      "visible": false
+    }
+  }
+}

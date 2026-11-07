@@ -1,0 +1,164 @@
+{
+  "plot": [
+    73,
+    16,
+    551,
+    404
+  ],
+  "labels": [
+    {
+      "text": "1",
+      "x": 61,
+      "y": 16,
+      "align": "right",
+      "baseline": "top"
+    },
+    {
+      "text": "0.8",
+      "x": 61,
+      "y": 96.79999999999998,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.6",
+      "x": 61,
+      "y": 177.60000000000002,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.4",
+      "x": 61,
+      "y": 258.4,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.2",
+      "x": 61,
+      "y": 339.20000000000005,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 61,
+      "y": 420,
+      "align": "right",
+      "baseline": "bottom"
+    },
+    {
+      "text": "0",
+      "x": 73,
+      "y": 428,
+      "align": "left",
+      "baseline": "top"
+    },
+    {
+      "text": "0.2",
+      "x": 183.2,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0.4",
+      "x": 293.4,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0.6",
+      "x": 403.59999999999997,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0.8",
+      "x": 513.8,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "1",
+      "x": 624,
+      "y": 428,
+      "align": "right",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        0,
+        1
+      ],
+      "range": [
+        0,
+        551
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        1
+      ],
+      "range": [
+        404,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.line": [
+      [
+        73,
+        420
+      ],
+      [
+        73,
+        218
+      ],
+      [
+        348.5,
+        218
+      ],
+      [
+        348.5,
+        16
+      ],
+      [
+        624,
+        16
+      ]
+    ],
+    "0.point": [
+      [
+        73,
+        420
+      ],
+      [
+        73,
+        218
+      ],
+      [
+        348.5,
+        218
+      ],
+      [
+        348.5,
+        16
+      ],
+      [
+        624,
+        16
+      ]
+    ]
+  }
+}

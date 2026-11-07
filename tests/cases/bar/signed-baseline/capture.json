@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\signed-baseline\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\signed-baseline\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "b622dfbaa4d58faf1f8ae8dee14c3b809267fa4682371541ca18f4851e17f10f",
+  "pngSha256": "8f306f0e55c8b627cd6b6674cacdb1543563b6c9df76091c596d7d6fad2ccf4f"
+}

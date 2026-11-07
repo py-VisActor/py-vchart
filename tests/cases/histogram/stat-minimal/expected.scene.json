@@ -1,0 +1,132 @@
+{
+  "plot": [
+    73,
+    16,
+    551,
+    404
+  ],
+  "labels": [
+    {
+      "text": "2",
+      "x": 61,
+      "y": 16,
+      "align": "right",
+      "baseline": "top"
+    },
+    {
+      "text": "1.5",
+      "x": 61,
+      "y": 117,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "1",
+      "x": 61,
+      "y": 218,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0.5",
+      "x": 61,
+      "y": 319,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 61,
+      "y": 420,
+      "align": "right",
+      "baseline": "bottom"
+    },
+    {
+      "text": "0",
+      "x": 73,
+      "y": 428,
+      "align": "left",
+      "baseline": "top"
+    },
+    {
+      "text": "1",
+      "x": 210.75,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "2",
+      "x": 348.5,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "3",
+      "x": 486.25,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "4",
+      "x": 624,
+      "y": 428,
+      "align": "right",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        0,
+        4
+      ],
+      "range": [
+        0,
+        551
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        2
+      ],
+      "range": [
+        404,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.bar": [
+      [
+        73,
+        218,
+        210.75,
+        420
+      ],
+      [
+        210.75,
+        218,
+        348.5,
+        420
+      ],
+      [
+        348.5,
+        218,
+        486.25,
+        420
+      ],
+      [
+        486.25,
+        16,
+        624,
+        420
+      ]
+    ]
+  }
+}

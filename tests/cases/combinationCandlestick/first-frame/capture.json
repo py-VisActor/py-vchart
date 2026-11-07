@@ -1,0 +1,15 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\combinationCandlestick\\first-frame\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\combinationCandlestick\\first-frame\\expected.png",
+  "width": 400,
+  "height": 300,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "inputSha256": "7dfd9df05fcf4288f452c0a5e32479b962725e6d21945a7c1fa1afe0e65e0aec",
+  "pngSha256": "d54aafbbda45456e80c307e35fc36ab639cae405698a370af5cbe2c7beae2e7f"
+}

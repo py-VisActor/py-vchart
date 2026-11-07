@@ -1,0 +1,58 @@
+{
+  "type": "pairPlot",
+  "variables": [
+    "x",
+    "y"
+  ],
+  "data": {
+    "observations": [
+      {
+        "id": "0",
+        "series": "C",
+        "values": {
+          "x": 2,
+          "y": null
+        }
+      },
+      {
+        "id": "1",
+        "series": "A",
+        "values": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "id": "2",
+        "series": "B",
+        "values": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "id": "3",
+        "series": "B",
+        "values": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "id": "4",
+        "series": "A",
+        "values": {
+          "x": 2,
+          "y": 0
+        }
+      }
+    ]
+  },
+  "colors": {
+    "categorical": [
+      "#693daf",
+      "#18a98a",
+      "#793122"
+    ]
+  }
+}

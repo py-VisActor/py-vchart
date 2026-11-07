@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\partial\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\partial\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "f5e4e6be131b7a03621133dc9a60afe4ec181b8c158e3e64d2dfd83a311be6a6",
+  "pngSha256": "00e9a352c718bcdf36e7c4238cc2a370bb549d7b3e3d03ce4f5bcfbd40b8756f"
+}

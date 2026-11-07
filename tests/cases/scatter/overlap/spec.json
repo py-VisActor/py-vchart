@@ -1,0 +1,30 @@
+{
+  "type": "scatter",
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "values": [
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 3
+      },
+      {
+        "x": 6,
+        "y": 7
+      }
+    ]
+  },
+  "point": {
+    "style": {
+      "size": 16,
+      "fill": "#369866",
+      "fillOpacity": 0.5
+    }
+  }
+}

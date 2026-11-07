@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\boxPlot\\horizontal\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\boxPlot\\horizontal\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "bc74adc2dec94a02b673c3289c2b9f3985f8c2fe6e274633e9e331d04c31c585",
+  "pngSha256": "5b0824193ecfb5eead282fa8222a275c5fd4d04a11641dbccc47220f7b2cc9ca"
+}

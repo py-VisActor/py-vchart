@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circlePacking\\ties\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circlePacking\\ties\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "9e0780f8cfc9c2f9b2cf0e39d92a8005e3f897474ac95a2dab82be4f52d23f59",
+  "pngSha256": "5590407101aee7c94552af2dc872a445c6cdcad65179be0924a7b30e967ad592"
+}

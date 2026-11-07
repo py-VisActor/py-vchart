@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\linearProgress\\vertical\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\linearProgress\\vertical\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "128c6c8e0e7e41888fe0c6afd66c1c5fbf40de7a39a3ecdfddeb976578361562",
+  "pngSha256": "fbd548e4e6d7f33092d6cf0b7079161c59c33ccca368215a6e407f9c0baf8c1e"
+}

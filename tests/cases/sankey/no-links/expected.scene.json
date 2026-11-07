@@ -1,0 +1,27 @@
+{
+  "plot": [
+    20,
+    20,
+    320,
+    240
+  ],
+  "labels": [],
+  "axes": [],
+  "marks": {
+    "node": [
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "link": []
+  }
+}

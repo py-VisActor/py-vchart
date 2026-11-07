@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\crowded\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\crowded\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "650efc9d578488751a1f7c63e9130a97d1e4b74caacbf37e8c7e9e9ca13960b7",
+  "pngSha256": "c05110b2c9d5682313ce6cbbd25454fca9906969d03936ccb64452fa21307e83"
+}

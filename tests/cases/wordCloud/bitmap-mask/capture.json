@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\bitmap-mask\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\wordCloud\\bitmap-mask\\expected.png",
+  "width": 360,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "7bea4613291c21425e3cb630f29a41877bfaeb5a202014f2f8f5ae3188bbf944",
+  "pngSha256": "e1e352537acfbd3800b482877bbd2d0f5e80c705d025c3d56cd9468c3138e5d5"
+}

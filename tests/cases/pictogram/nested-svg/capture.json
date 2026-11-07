@@ -1,0 +1,16 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pictogram\\nested-svg\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\pictogram\\nested-svg\\expected.png",
+  "width": 400,
+  "height": 300,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "family": "extension",
+  "addonSha256": "ce3cddc3bfb843b38d68d8925e632671f11b3905c97b33dcb92193908fc0db87",
+  "svgSha256": "4372777c45919c5a2b83635b9b89fe8826a570fb0ef1d9d5abcfb306e98fb8da",
+  "inputSha256": "651835309c5655438e10eee1912329be5cab42e99d8c50c713ea921a7aba4446",
+  "pngSha256": "02adc719d362099a981496e9827c093440cdc035e94c9ef371310ab1fbf44930"
+}

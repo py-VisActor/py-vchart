@@ -1,0 +1,92 @@
+{
+  "plot": [
+    72,
+    46,
+    298,
+    166
+  ],
+  "labels": [
+    {
+      "text": "[object Object]",
+      "x": 60,
+      "y": 149.75,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "1",
+      "x": 165.125,
+      "y": 224,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "[object Object]",
+      "x": 183.75,
+      "y": 34,
+      "align": "center",
+      "baseline": "bottom"
+    },
+    {
+      "text": "[object Object]",
+      "x": 332.75,
+      "y": 34,
+      "align": "center",
+      "baseline": "bottom"
+    },
+    {
+      "text": "2",
+      "x": 351.375,
+      "y": 224,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "top",
+      "domain": [
+        "1",
+        "2"
+      ],
+      "range": [
+        0,
+        298
+      ]
+    },
+    {
+      "orient": "bottom",
+      "domain": [
+        "1",
+        "2"
+      ],
+      "range": [
+        0,
+        298
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        "A"
+      ],
+      "range": [
+        166,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.link": [],
+    "1.dot": [
+      [
+        183.75,
+        149.75
+      ],
+      [
+        332.75,
+        149.75
+      ]
+    ]
+  }
+}

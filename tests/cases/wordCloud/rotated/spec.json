@@ -1,0 +1,33 @@
+{
+  "type": "wordCloud",
+  "width": 360,
+  "height": 240,
+  "nameField": "name",
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "name": "Chart",
+        "v": 4
+      }
+    ]
+  },
+  "random": false,
+  "wordCloudConfig": {
+    "layoutMode": "fast"
+  },
+  "rotateAngles": [
+    90
+  ],
+  "fontSizeRange": [
+    18,
+    32
+  ],
+  "word": {
+    "style": {
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "fill": "#1664ff"
+    }
+  }
+}

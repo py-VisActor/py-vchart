@@ -1,0 +1,65 @@
+{
+  "type": "sankey",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "sourceField": "from",
+  "targetField": "to",
+  "valueField": "flow",
+  "label": {
+    "visible": false
+  },
+  "nodeKey": "name",
+  "data": [
+    {
+      "values": [
+        {
+          "nodes": [
+            {
+              "name": "A"
+            },
+            {
+              "name": "B"
+            },
+            {
+              "name": "C"
+            },
+            {
+              "name": "D"
+            },
+            {
+              "name": "E"
+            }
+          ],
+          "links": [
+            {
+              "from": "A",
+              "to": "C",
+              "flow": 4
+            },
+            {
+              "from": "B",
+              "to": "C",
+              "flow": 2
+            },
+            {
+              "from": "B",
+              "to": "D",
+              "flow": 3
+            },
+            {
+              "from": "C",
+              "to": "E",
+              "flow": 6
+            },
+            {
+              "from": "D",
+              "to": "E",
+              "flow": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

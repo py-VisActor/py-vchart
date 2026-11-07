@@ -1,0 +1,28 @@
+{
+  "width": 400,
+  "height": 240,
+  "type": "histogram",
+  "data": {
+    "values": [
+      {
+        "lo": 0,
+        "hi": 1,
+        "n": 2
+      },
+      {
+        "lo": 1,
+        "hi": 3,
+        "n": 5
+      },
+      {
+        "lo": 3,
+        "hi": 6,
+        "n": 3
+      }
+    ]
+  },
+  "direction": "horizontal",
+  "yField": "lo",
+  "xField": "n",
+  "y2Field": "hi"
+}

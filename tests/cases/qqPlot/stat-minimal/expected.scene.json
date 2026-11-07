@@ -1,0 +1,146 @@
+{
+  "plot": [
+    68,
+    16,
+    556,
+    404
+  ],
+  "labels": [
+    {
+      "text": "6",
+      "x": 56,
+      "y": 16,
+      "align": "right",
+      "baseline": "top"
+    },
+    {
+      "text": "4",
+      "x": 56,
+      "y": 117,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "2",
+      "x": 56,
+      "y": 218,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 56,
+      "y": 319,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-2",
+      "x": 56,
+      "y": 420,
+      "align": "right",
+      "baseline": "bottom"
+    },
+    {
+      "text": "-1.5",
+      "x": 68,
+      "y": 428,
+      "align": "left",
+      "baseline": "top"
+    },
+    {
+      "text": "-1",
+      "x": 160.66666666666666,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "-0.5",
+      "x": 253.33333333333331,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0",
+      "x": 346,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0.5",
+      "x": 438.66666666666663,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "1",
+      "x": 531.3333333333334,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "1.5",
+      "x": 624,
+      "y": 428,
+      "align": "right",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        -1.5,
+        1.5
+      ],
+      "range": [
+        0,
+        556
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -2,
+        6
+      ],
+      "range": [
+        404,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.point": [
+      [
+        148.14359602845843,
+        369.5
+      ],
+      [
+        241.11081821976438,
+        319
+      ],
+      [
+        312.6377074820688,
+        218
+      ],
+      [
+        379.3622925179312,
+        218
+      ],
+      [
+        450.88918178023556,
+        167.5
+      ],
+      [
+        543.8564039715413,
+        66.5
+      ]
+    ]
+  }
+}

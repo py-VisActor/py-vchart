@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\zero\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\bar\\zero\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "ad111a622a20f8a088b39fbb6866d6008876b608680907e2b3ea8456ed9e2ed4",
+  "pngSha256": "be59d8dea0a0d1c5cf11c457460a2c4966b14c5507d634ae151ede00efe4d17d"
+}

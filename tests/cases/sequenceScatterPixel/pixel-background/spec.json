@@ -1,0 +1,44 @@
+{
+  "type": "sequenceScatterPixel",
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "0": [
+      {
+        "x": 1,
+        "y": 1,
+        "label": "0",
+        "id": "a",
+        "confidence": 0.8
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "label": "1",
+        "id": "b",
+        "confidence": 1
+      }
+    ]
+  },
+  "infoLabel": {
+    "style": {
+      "visible": false
+    }
+  },
+  "backgroundColors": {
+    "0": [
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    ]
+  }
+}

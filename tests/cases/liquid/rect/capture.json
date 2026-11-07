@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\liquid\\rect\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\liquid\\rect\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "dbef477354126e6ffa870f468e9cc48c753602557c2384cbaffa5ccb3252bf78",
+  "pngSha256": "2f6d0509eb3db0681ad5f7de1895a1206df6757150d27ccf693c7d681ed551c8"
+}

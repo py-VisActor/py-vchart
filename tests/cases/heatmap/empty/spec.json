@@ -1,0 +1,32 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "type": "heatmap",
+  "data": {
+    "values": []
+  },
+  "valueField": "v",
+  "axes": [
+    {
+      "orient": "bottom",
+      "type": "band"
+    },
+    {
+      "orient": "left",
+      "type": "band"
+    }
+  ],
+  "color": {
+    "type": "linear",
+    "domain": [
+      1,
+      3
+    ],
+    "range": [
+      "#ffffff",
+      "#1664ff"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "radar",
+  "width": 360,
+  "height": 280,
+  "valueField": "v",
+  "data": {
+    "values": []
+  },
+  "categoryField": "k"
+}

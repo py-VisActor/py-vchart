@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circlePacking\\deep-mixed\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\circlePacking\\deep-mixed\\expected.png",
+  "width": 420,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "5e158634213403ec725031d9a11f3a411141175679a1fffd6d500cc9e43e22ad",
+  "pngSha256": "48143d34cf2e58396ea22ae2d4dc68cd4e31e3d5c72ce13174088202451cde4b"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "funnel",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "valueField": "value",
+  "data": {
+    "values": [
+      {
+        "name": "A",
+        "value": 8
+      },
+      {
+        "name": "B",
+        "value": 5
+      },
+      {
+        "name": "C",
+        "value": 3
+      },
+      {
+        "name": "D",
+        "value": 2
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  },
+  "shape": "rect",
+  "isTransform": true
+}

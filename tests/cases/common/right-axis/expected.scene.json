@@ -1,0 +1,180 @@
+{
+  "plot": [
+    45,
+    26,
+    308,
+    170
+  ],
+  "labels": [
+    {
+      "text": "6",
+      "x": 33,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "4",
+      "x": 33,
+      "y": 68.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "2",
+      "x": 33,
+      "y": 111,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 33,
+      "y": 153.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-2",
+      "x": 33,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "A",
+      "x": 111,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "B",
+      "x": 199,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "C",
+      "x": 287,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "60",
+      "x": 365,
+      "y": 26,
+      "align": "left",
+      "baseline": "middle"
+    },
+    {
+      "text": "40",
+      "x": 365,
+      "y": 82.66666666666667,
+      "align": "left",
+      "baseline": "middle"
+    },
+    {
+      "text": "20",
+      "x": 365,
+      "y": 139.33333333333334,
+      "align": "left",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 365,
+      "y": 196,
+      "align": "left",
+      "baseline": "middle"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "A",
+        "B",
+        "C"
+      ],
+      "range": [
+        0,
+        308
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -2,
+        6
+      ],
+      "range": [
+        170,
+        0
+      ]
+    },
+    {
+      "orient": "right",
+      "domain": [
+        0,
+        60
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.bar": [
+      [
+        71.4,
+        89.75,
+        150.60000000000002,
+        153.5
+      ],
+      [
+        159.4,
+        153.5,
+        238.60000000000002,
+        196
+      ],
+      [
+        247.4,
+        26,
+        326.6,
+        153.5
+      ]
+    ],
+    "1.line": [
+      [
+        111,
+        82.66666666666667
+      ],
+      [
+        199,
+        26
+      ],
+      [
+        287,
+        139.33333333333334
+      ]
+    ],
+    "1.point": [
+      [
+        111,
+        82.66666666666667
+      ],
+      [
+        199,
+        26
+      ],
+      [
+        287,
+        139.33333333333334
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "k",
+  "type": "boxPlot",
+  "data": {
+    "values": []
+  },
+  "minField": "min",
+  "q1Field": "q1",
+  "medianField": "med",
+  "q3Field": "q3",
+  "maxField": "max"
+}

@@ -1,0 +1,91 @@
+{
+  "plot": [
+    65,
+    16,
+    404,
+    404
+  ],
+  "labels": [
+    {
+      "text": "A",
+      "x": 53,
+      "y": 117,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "B",
+      "x": 53,
+      "y": 319,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "A",
+      "x": 166,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "B",
+      "x": 368,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "A",
+        "B"
+      ],
+      "range": [
+        0,
+        404
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        "A",
+        "B"
+      ],
+      "range": [
+        0,
+        404
+      ]
+    }
+  ],
+  "marks": {
+    "0.cell": [
+      [
+        65,
+        16,
+        267,
+        218
+      ],
+      [
+        267,
+        16,
+        469,
+        218
+      ],
+      [
+        65,
+        218,
+        267,
+        420
+      ],
+      [
+        267,
+        218,
+        469,
+        420
+      ]
+    ],
+    "1.cell": []
+  }
+}

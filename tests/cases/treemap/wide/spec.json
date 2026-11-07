@@ -1,0 +1,42 @@
+{
+  "type": "treemap",
+  "width": 480,
+  "height": 280,
+  "categoryField": "name",
+  "valueField": "value",
+  "data": {
+    "values": [
+      {
+        "name": "North",
+        "children": [
+          {
+            "name": "A",
+            "value": 8
+          },
+          {
+            "name": "B",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "name": "South",
+        "children": [
+          {
+            "name": "C",
+            "value": 3
+          },
+          {
+            "name": "D",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  "label": {
+    "visible": false
+  },
+  "gapWidth": 4,
+  "nodePadding": 8
+}

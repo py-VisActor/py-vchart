@@ -1,0 +1,20 @@
+{
+  "type": "storyline",
+  "width": 400,
+  "height": 300,
+  "data": [
+    {
+      "id": "a",
+      "title": "Start",
+      "content": "Plan",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAoCAIAAADmAupWAAAAZElEQVR4nOXOQRGAMBDAwBDHOOGBDOR00FMXvUfWQHLd/8eE510jXYmRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGImRGKcHTtulcwQ7TrsV0gAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "b",
+      "title": "Finish",
+      "content": "Review",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA8CAIAAAD+Np3IAAAAU0lEQVR4nO3QoRGAMAAEwUBf1IDE0xyl0QaaUzFxu/rnxW3PdY9p5/HOj/exzO76T5AQJAQJQUKQECQECUFCkBAkBAlBQpAQJAQJQUKQECQWBvkADd8DSzDrb4wAAAAASUVORK5CYII="
+    }
+  ],
+  "layout": "landscape"
+}

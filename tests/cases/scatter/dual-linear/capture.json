@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\scatter\\dual-linear\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\scatter\\dual-linear\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "106e688d2f9f605c74a73985ad044e2d83a738704770b124705ab0afcabecc9f",
+  "pngSha256": "79cb5337dfbd754b041e207647dcce0862dfab6002dd14a71ae8e6ec5fecd9f3"
+}

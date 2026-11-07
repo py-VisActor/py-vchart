@@ -1,0 +1,23 @@
+{
+  "type": "correlation",
+  "width": 360,
+  "height": 280,
+  "categoryField": "k",
+  "valueField": "v",
+  "label": {
+    "visible": false
+  },
+  "centerLabel": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "k": "0",
+        "v": 2,
+        "s": 1,
+        "g": "A"
+      }
+    ]
+  }
+}

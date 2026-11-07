@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\rose\\inner\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\rose\\inner\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "0ddd58fb77e8f999e5a6a8d4a3f9ed24e60f557eb90a2b28798da42254cfebc1",
+  "pngSha256": "bb93c434f85e27eef96ffcc295673a7aecaeb4d3725865f5dbdaad78b6bba242"
+}

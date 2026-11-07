@@ -1,0 +1,13 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "k",
+  "yField": [
+    "lo",
+    "hi"
+  ],
+  "type": "rangeArea",
+  "data": {
+    "values": []
+  }
+}

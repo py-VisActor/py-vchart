@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\scatter\\overlap\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\scatter\\overlap\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "ded0f1f9b5e40a8d852e0c360dc40f321f5dfff188587bfa468af3d34ca23f75",
+  "pngSha256": "710fe556684a9dd166edd1de57fce2e9d98f5743d6313550897b171a5de4779f"
+}

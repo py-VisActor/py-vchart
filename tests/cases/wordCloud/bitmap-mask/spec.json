@@ -1,0 +1,45 @@
+{
+  "type": "wordCloud",
+  "width": 360,
+  "height": 240,
+  "nameField": "name",
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "name": "Chart",
+        "v": 9
+      },
+      {
+        "name": "Data",
+        "v": 4
+      },
+      {
+        "name": "Plot",
+        "v": 1
+      }
+    ]
+  },
+  "random": false,
+  "rotateAngles": [
+    0
+  ],
+  "fontSizeRange": [
+    18,
+    32
+  ],
+  "word": {
+    "style": {
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "fill": "#1664ff"
+    }
+  },
+  "maskShape": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADICAIAAAAWZq/8AAACiElEQVR4nO3VwQmEQBQFQV0MwLvZGLjZeDeD2RxEcJutug88Bpo/jzEmoOnz9gDgPgFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIWy59+w6j6eX8Jh12/3mn3CBIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIW94ewPOu8/Ctj1i3ffptLjCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQNo8x3t4A3OQCQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDFPXFz/JDY2zSQhtAAAAAElFTkSuQmCC",
+  "wordMask": {
+    "visible": true
+  },
+  "wordCloudShapeConfig": {
+    "fillingTimes": 0
+  }
+}

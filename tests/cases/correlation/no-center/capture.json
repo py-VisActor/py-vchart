@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\no-center\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\correlation\\no-center\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "aeaa6e9e0a87d768c6f8a3b8c57e80fdc8802bfe331fe1cd9a6a4babfe31c166",
+  "pngSha256": "d5d19b4b6c0e5788d234f6586d830e440731f99f1cb69547a65459ec7fd290f3"
+}

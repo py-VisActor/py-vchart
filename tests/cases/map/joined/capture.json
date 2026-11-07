@@ -1,0 +1,14 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\joined\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\map\\joined\\expected.png",
+  "width": 340,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "geojsonSha256": "75cd1a6c23de4dab5feba4ffb8c7179cf8bea5fb6a75f902fec3683e2e71d9e6",
+  "inputSha256": "15955e6fae70aa53af14eec7359ec92b6cd45e9ed25f3a034127abd689a248ba",
+  "pngSha256": "a9e53e48be46fba484090e5ba8d086da7ed04be93a9f9cbb084d88aed50d65ef"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "pie",
+  "width": 360,
+  "height": 280,
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 0
+      },
+      {
+        "k": "B",
+        "v": 0
+      }
+    ]
+  },
+  "categoryField": "k"
+}

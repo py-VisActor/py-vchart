@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\area\\gap\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\area\\gap\\expected.png",
+  "width": 400,
+  "height": 240,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "e0733ba36ffe26114cafa3295cc1ea70381676395c4816b76af42ff48ca799b6",
+  "pngSha256": "1d8f6977112187b655d0de6756d0a545480199fa843e3d907f9ffcad697728b9"
+}

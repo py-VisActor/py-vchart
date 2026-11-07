@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\funnel\\reverse\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\funnel\\reverse\\expected.png",
+  "width": 360,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "0a7d752e743761d5433db47715f6d88dd5a9e6613b1d40a8f9664e1413b28b36",
+  "pngSha256": "d2892971267fb6e9a4cb3e62f00e75b51e6597aaf5488ab8b4e05699fa81c120"
+}

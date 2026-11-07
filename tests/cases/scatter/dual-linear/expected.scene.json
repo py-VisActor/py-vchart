@@ -1,0 +1,122 @@
+{
+  "plot": [
+    45,
+    26,
+    331,
+    174
+  ],
+  "labels": [
+    {
+      "text": "9",
+      "x": 33,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "6",
+      "x": 33,
+      "y": 69.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "3",
+      "x": 33,
+      "y": 113,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 33,
+      "y": 156.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-3",
+      "x": 33,
+      "y": 200,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "-3",
+      "x": 45,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "0",
+      "x": 127.75,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "3",
+      "x": 210.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "6",
+      "x": 293.25,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "9",
+      "x": 376,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        -3,
+        9
+      ],
+      "range": [
+        0,
+        331
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        -3,
+        9
+      ],
+      "range": [
+        174,
+        0
+      ]
+    }
+  ],
+  "points": [
+    [
+      45,
+      69.5
+    ],
+    [
+      127.75,
+      200
+    ],
+    [
+      182.91666666666669,
+      40.50000000000001
+    ],
+    [
+      348.41666666666663,
+      127.49999999999999
+    ]
+  ]
+}

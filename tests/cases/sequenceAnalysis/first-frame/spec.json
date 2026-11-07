@@ -1,0 +1,48 @@
+{
+  "type": "sequenceAnalysis",
+  "width": 400,
+  "height": 300,
+  "mode": "step",
+  "eventData": [
+    {
+      "user_id": "A",
+      "user_image": "",
+      "dots": [
+        {
+          "step": "1",
+          "action_type": "Read",
+          "node_name": "1",
+          "medium_type": "Web",
+          "time_stamp": 1,
+          "action_count": 1
+        },
+        {
+          "step": "2",
+          "action_type": "Read",
+          "node_name": "2",
+          "medium_type": "Web",
+          "time_stamp": 2,
+          "action_count": 1
+        }
+      ]
+    }
+  ],
+  "stepMediumMap": {
+    "1": {
+      "medium_type": "Web",
+      "count": 1
+    },
+    "2": {
+      "medium_type": "Web",
+      "count": 1
+    }
+  },
+  "userImageMap": {},
+  "patternData": [],
+  "actionData": [
+    {
+      "from": "1",
+      "to": "2"
+    }
+  ]
+}

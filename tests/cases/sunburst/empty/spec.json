@@ -1,0 +1,13 @@
+{
+  "type": "sunburst",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "valueField": "value",
+  "data": {
+    "values": []
+  },
+  "label": {
+    "visible": false
+  }
+}

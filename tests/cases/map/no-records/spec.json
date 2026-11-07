@@ -1,0 +1,12 @@
+{
+  "type": "map",
+  "map": "local",
+  "nameField": "name",
+  "width": 340,
+  "height": 240,
+  "padding": 15,
+  "label": {
+    "visible": false
+  },
+  "defaultFillColor": "#308260"
+}

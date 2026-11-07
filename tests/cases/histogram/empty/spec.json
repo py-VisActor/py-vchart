@@ -1,0 +1,11 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "lo",
+  "yField": "n",
+  "type": "histogram",
+  "data": {
+    "values": []
+  },
+  "x2Field": "hi"
+}

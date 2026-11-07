@@ -1,0 +1,49 @@
+{
+  "type": "venn",
+  "width": 360,
+  "height": 280,
+  "categoryField": "sets",
+  "valueField": "value",
+  "seriesField": "sets",
+  "label": {
+    "visible": false
+  },
+  "overlapLabel": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "sets": [
+          "A"
+        ],
+        "value": 9
+      },
+      {
+        "sets": [
+          "B"
+        ],
+        "value": 7
+      },
+      {
+        "sets": [
+          "A",
+          "B"
+        ],
+        "value": 3
+      }
+    ]
+  },
+  "circle": {
+    "style": {
+      "fill": "#ad503b",
+      "opacity": 0.6
+    }
+  },
+  "overlap": {
+    "style": {
+      "fill": "#714fbb",
+      "opacity": 0.7
+    }
+  }
+}

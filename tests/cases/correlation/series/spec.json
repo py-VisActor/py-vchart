@@ -1,0 +1,60 @@
+{
+  "type": "correlation",
+  "width": 360,
+  "height": 280,
+  "categoryField": "k",
+  "valueField": "v",
+  "label": {
+    "visible": false
+  },
+  "centerLabel": {
+    "visible": false
+  },
+  "data": {
+    "values": [
+      {
+        "k": "0",
+        "v": 2,
+        "s": 1,
+        "g": "A"
+      },
+      {
+        "k": "1",
+        "v": 4,
+        "s": 3,
+        "g": "B"
+      },
+      {
+        "k": "2",
+        "v": -1,
+        "s": 5,
+        "g": "A"
+      },
+      {
+        "k": "3",
+        "v": 5,
+        "s": 7,
+        "g": "B"
+      },
+      {
+        "k": "4",
+        "v": 0,
+        "s": 9,
+        "g": "A"
+      },
+      {
+        "k": "5",
+        "v": 2,
+        "s": 11,
+        "g": "B"
+      },
+      {
+        "k": "6",
+        "v": 3,
+        "s": 13,
+        "g": "A"
+      }
+    ]
+  },
+  "seriesField": "g"
+}

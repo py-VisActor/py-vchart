@@ -1,0 +1,40 @@
+{
+  "type": "scatter",
+  "width": 400,
+  "height": 240,
+  "xField": "x",
+  "yField": "y",
+  "data": {
+    "values": [
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 4
+      },
+      {
+        "x": 8,
+        "y": 1
+      }
+    ]
+  },
+  "axes": [
+    {
+      "orient": "bottom",
+      "min": 0,
+      "max": 10,
+      "visible": false,
+      "type": "linear"
+    },
+    {
+      "orient": "left",
+      "min": 0,
+      "max": 5,
+      "visible": false,
+      "type": "linear"
+    }
+  ],
+  "size": 12
+}

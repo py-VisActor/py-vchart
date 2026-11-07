@@ -1,0 +1,57 @@
+{
+  "type": "rankingList",
+  "width": 400,
+  "height": 250,
+  "xField": "score",
+  "yField": "name",
+  "data": [
+    {
+      "name": "A",
+      "score": 82
+    },
+    {
+      "name": "B",
+      "score": 75
+    },
+    {
+      "name": "C",
+      "score": 60
+    },
+    {
+      "name": "D",
+      "score": 42
+    },
+    {
+      "name": "E",
+      "score": 20
+    }
+  ],
+  "pageSize": 5,
+  "bar": {
+    "style": {
+      "fill": "#1664ff",
+      "cornerRadius": 0
+    },
+    "height": 10
+  },
+  "barBackground": {
+    "visible": true,
+    "style": {
+      "cornerRadius": 0,
+      "fill": "#f1f2f5"
+    }
+  },
+  "decorateHaloIcons": [],
+  "rankingIcon": {
+    "visible": false
+  },
+  "nameLabel": {
+    "visible": false
+  },
+  "valueLabel": {
+    "visible": false
+  },
+  "orderLabel": {
+    "visible": false
+  }
+}

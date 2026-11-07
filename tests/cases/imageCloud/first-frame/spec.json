@@ -1,0 +1,14 @@
+{
+  "type": "imageCloud",
+  "width": 400,
+  "height": 300,
+  "urlField": "url",
+  "imageSize": 50,
+  "data": {
+    "values": [
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAI0lEQVR4nGNkLN7EQApgIkk1w6gG4gATkergYFQDMYDkUAIAtaABRpuaYVgAAAAASUVORK5CYII="
+      }
+    ]
+  }
+}

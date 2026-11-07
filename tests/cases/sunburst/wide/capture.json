@@ -1,0 +1,13 @@
+{
+  "input": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sunburst\\wide\\spec.json",
+  "output": "C:\\code\\py-visactor\\py-vchart\\tests\\cases\\sunburst\\wide\\expected.png",
+  "width": 480,
+  "height": 280,
+  "dpr": 1,
+  "browser": "158.0.8127.18",
+  "vchart": "2.2.1",
+  "bundle": "C:\\code\\py-visactor\\py-vchart\\tools\\oracle\\node_modules\\@visactor\\vchart\\build\\index.min.js",
+  "bundleSha256": "1877e3a710143f4938116e7c6a2375114d1de1c606cef7851f816bb1c519703e",
+  "inputSha256": "31de4a09c3dcd88b0ff8f749671d5ff75170c271841ab5f164393b9316847d23",
+  "pngSha256": "5fcbe3fbe0fcd911da2c78cfc40cfb4ab0a92d55f48f57c70ab364f26c74cd3f"
+}

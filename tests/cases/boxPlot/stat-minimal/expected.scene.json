@@ -1,0 +1,96 @@
+{
+  "plot": [
+    70,
+    16,
+    554,
+    400
+  ],
+  "labels": [
+    {
+      "text": "10",
+      "x": 58,
+      "y": 16,
+      "align": "right",
+      "baseline": "top"
+    },
+    {
+      "text": "8",
+      "x": 58,
+      "y": 95.99999999999999,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "6",
+      "x": 58,
+      "y": 176,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "4",
+      "x": 58,
+      "y": 256,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "2",
+      "x": 58,
+      "y": 336,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 58,
+      "y": 416,
+      "align": "right",
+      "baseline": "bottom"
+    },
+    {
+      "text": "A",
+      "x": 347,
+      "y": 428,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "A"
+      ],
+      "range": [
+        0,
+        554
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        10
+      ],
+      "range": [
+        400,
+        0
+      ]
+    }
+  ],
+  "marks": {
+    "0.boxPlot": [
+      [
+        347,
+        171.39375,
+        416,
+        316,
+        216,
+        116,
+        16
+      ]
+    ],
+    "0.outlier": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "pairPlot",
+  "variables": [
+    "y",
+    "x"
+  ],
+  "data": {
+    "observations": [
+      {
+        "id": "0",
+        "values": {
+          "x": 0,
+          "y": null
+        }
+      },
+      {
+        "id": "1",
+        "values": {
+          "x": 1,
+          "y": 2
+        }
+      },
+      {
+        "id": "2",
+        "values": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    ]
+  },
+  "diagonal": {
+    "type": "histogram",
+    "binning": {
+      "binCount": 2
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "bar",
+  "width": 400,
+  "height": 240,
+  "animation": false,
+  "data": [
+    {
+      "values": [
+        {
+          "month": "None",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "xField": "month",
+  "yField": "value"
+}

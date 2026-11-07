@@ -1,0 +1,51 @@
+{
+  "type": "wordCloud",
+  "width": 250,
+  "height": 220,
+  "nameField": "name",
+  "valueField": "v",
+  "data": {
+    "values": [
+      {
+        "name": "Chart",
+        "v": 9
+      },
+      {
+        "name": "Data",
+        "v": 4
+      },
+      {
+        "name": "Plot",
+        "v": 1
+      }
+    ]
+  },
+  "random": false,
+  "rotateAngles": [
+    0
+  ],
+  "fontSizeRange": [
+    18,
+    32
+  ],
+  "word": {
+    "style": {
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "fill": "#1664ff"
+    }
+  },
+  "maskShape": {
+    "type": "geometric",
+    "shape": "diamond"
+  },
+  "wordMask": {
+    "visible": true
+  },
+  "fillingWord": {
+    "style": {
+      "fontFamily": "Arial",
+      "fill": "#408060"
+    }
+  }
+}

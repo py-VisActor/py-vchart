@@ -1,0 +1,111 @@
+{
+  "plot": [
+    47,
+    26,
+    333,
+    170
+  ],
+  "labels": [
+    {
+      "text": "12",
+      "x": 35,
+      "y": 26,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "9",
+      "x": 35,
+      "y": 68.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "6",
+      "x": 35,
+      "y": 111,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "3",
+      "x": 35,
+      "y": 153.5,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "0",
+      "x": 35,
+      "y": 196,
+      "align": "right",
+      "baseline": "middle"
+    },
+    {
+      "text": "A",
+      "x": 118.35714285714286,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "B",
+      "x": 213.5,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    },
+    {
+      "text": "C",
+      "x": 308.6428571428571,
+      "y": 208,
+      "align": "center",
+      "baseline": "top"
+    }
+  ],
+  "axes": [
+    {
+      "orient": "bottom",
+      "domain": [
+        "A",
+        "B",
+        "C"
+      ],
+      "range": [
+        0,
+        333
+      ]
+    },
+    {
+      "orient": "left",
+      "domain": [
+        0,
+        12
+      ],
+      "range": [
+        170,
+        0
+      ]
+    }
+  ],
+  "bars": [
+    [
+      75.54285714285714,
+      26,
+      161.17142857142858,
+      196
+    ],
+    [
+      170.68571428571428,
+      125.16666666666666,
+      256.3142857142857,
+      196
+    ],
+    [
+      265.8285714285714,
+      167.66666666666669,
+      351.45714285714286,
+      196
+    ]
+  ]
+}

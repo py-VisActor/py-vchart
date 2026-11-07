@@ -1,0 +1,19 @@
+{
+  "width": 400,
+  "height": 240,
+  "xField": "v",
+  "yField": "k",
+  "type": "linearProgress",
+  "data": {
+    "values": [
+      {
+        "k": "A",
+        "v": 0.3
+      },
+      {
+        "k": "B",
+        "v": 0.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "sankey",
+  "width": 360,
+  "height": 280,
+  "categoryField": "name",
+  "sourceField": "source",
+  "targetField": "target",
+  "valueField": "value",
+  "label": {
+    "visible": false
+  },
+  "data": [
+    {
+      "values": [
+        {
+          "nodes": [],
+          "links": []
+        }
+      ]
+    }
+  ]
+}
