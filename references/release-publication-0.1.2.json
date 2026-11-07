@@ -1,0 +1,139 @@
+{
+  "schema": "py-vchart-publication-ci/v1",
+  "status": "PASS_PUBLISHED_DOWNLOAD_INSTALL_VERIFIED",
+  "project": "py-visactor-vchart",
+  "version": "0.1.2",
+  "sourceCommit": "526496617d333ac9e4f0fb4699ef07f6569b69a0",
+  "workflowRun": 42378100498,
+  "workflowURL": "https://github.com/py-VisActor/py-vchart/actions/runs/42378100498",
+  "githubReleaseURL": "https://github.com/py-VisActor/py-vchart/releases/tag/py-visactor-vchart-v0.1.2",
+  "pypiURL": "https://pypi.org/project/py-visactor-vchart/0.1.2/",
+  "distributions": {
+    "py_visactor_vchart-0.1.2-py3-none-any.whl": {
+      "bytes": 122757,
+      "sha256": "a32ed8f4fb2533c7548953ead25d56cc61830b8dd3ad1247200c04f4f562c0f6"
+    },
+    "py_visactor_vchart-0.1.2.tar.gz": {
+      "bytes": 111732,
+      "sha256": "89126d7dfc3f969fb05ab5194a2332bf89f951a2f8e3bcbba46c048b894b6282"
+    }
+  },
+  "artifacts": {
+    "pypi-verification": {
+      "status": "PASS",
+      "artifactId": 13576975803,
+      "archiveSha256": "ae9c670cc9458f0242ef854482cd6c9db2346831d4413b41f336c3461d69312b",
+      "archiveBytes": 16189902,
+      "externalInstallations": 2,
+      "actualCaseExecutions": 450,
+      "actualExportFilesVerified": 994,
+      "nativeHostTestsExecuted": 72
+    },
+    "release-windows-2025-0.1.0a18": {
+      "status": "PASS",
+      "artifactId": 13576935346,
+      "archiveSha256": "cf9db2089f88678a29ed3d17382b06cf5a8506726c9af4d39620659a4149a623",
+      "archiveBytes": 15582605,
+      "externalInstallations": 2,
+      "actualCaseExecutions": 450,
+      "actualExportFilesVerified": 994,
+      "nativeHostTestsExecuted": 72
+    },
+    "release-windows-2025-0.1.0a19": {
+      "status": "PASS",
+      "artifactId": 13576312776,
+      "archiveSha256": "b10c817688ad81b374129f69b37807cfde9348239d87c3a969e83a0403d7fad5",
+      "archiveBytes": 15582595,
+      "externalInstallations": 2,
+      "actualCaseExecutions": 450,
+      "actualExportFilesVerified": 994,
+      "nativeHostTestsExecuted": 72
+    },
+    "release-ubuntu-24.04-0.1.0a18": {
+      "status": "PASS",
+      "artifactId": 13576282879,
+      "archiveSha256": "136cf9ca13c96db4a41a67eaa152e2c38b3b5fecf9acb4915b2460427d2222a8",
+      "archiveBytes": 15869082,
+      "externalInstallations": 2,
+      "actualCaseExecutions": 450,
+      "actualExportFilesVerified": 994,
+      "nativeHostTestsExecuted": 72
+    },
+    "release-ubuntu-24.04-0.1.0a19": {
+      "status": "PASS",
+      "artifactId": 13576272889,
+      "archiveSha256": "12f298a034a262cc8542a282cba74761e5da9f6c2b6d686765e5d7efa26529ab",
+      "archiveBytes": 15869021,
+      "externalInstallations": 2,
+      "actualCaseExecutions": 450,
+      "actualExportFilesVerified": 994,
+      "nativeHostTestsExecuted": 72
+    }
+  },
+  "documentationMetadata": {
+    "status": "PUBLISHED_USER_DESCRIPTION_METADATA_AND_ASSET_BYTES_VERIFIED",
+    "project": "py-visactor-vchart",
+    "version": "0.1.2",
+    "url": "https://pypi.org/pypi/py-visactor-vchart/0.1.2/json",
+    "pypiURL": "https://pypi.org/project/py-visactor-vchart/0.1.2/",
+    "projectUrls": {
+      "Changelog": "https://github.com/py-VisActor/py-vchart/blob/main/docs/CHANGELOG.md",
+      "Documentation": "https://github.com/py-VisActor/py-vchart/blob/main/docs/README.md",
+      "Issues": "https://github.com/py-VisActor/py-vchart/issues",
+      "Repository": "https://github.com/py-VisActor/py-vchart",
+      "Upstream": "https://github.com/VisActor/VChart"
+    },
+    "requiresDist": [
+      "py-skia-canvas<=0.1.0a19,>=0.1.0a18",
+      "numpy>=1.26",
+      "skia-python==144.1; extra == \"reference\"",
+      "Pillow>=10; extra == \"test\""
+    ],
+    "descriptionEqualsReviewedReadme": true,
+    "pypiJsonSha256": "c98a48a827ebc4b343fdcb5c37ff92cb5a874ddef040d06b61363e1e14311c95",
+    "distributions": {
+      "py_visactor_vchart-0.1.2-py3-none-any.whl": {
+        "bytes": 122757,
+        "sha256": "a32ed8f4fb2533c7548953ead25d56cc61830b8dd3ad1247200c04f4f562c0f6"
+      },
+      "py_visactor_vchart-0.1.2.tar.gz": {
+        "bytes": 111732,
+        "sha256": "89126d7dfc3f969fb05ab5194a2332bf89f951a2f8e3bcbba46c048b894b6282"
+      }
+    }
+  },
+  "localActualPypiWindowsReadback": {
+    "status": "PASS",
+    "run": {
+      "path": "py-katex/test-runs/DOCS-RELEASE-vchart-publication-readback-20261107T134504Z-1e3281c8/run.json",
+      "bytes": 737895,
+      "sha256": "9e77d6129f48011f717cf4a48b5a9b0b54db74f5f1ae45ec0eeda0c2eb8d8711"
+    },
+    "installationEvidence": {
+      "path": "py-katex/test-runs/DOCS-RELEASE-vchart-publication-readback-20261107T134504Z-1e3281c8/artifacts/pypi-installed/result.json",
+      "bytes": 468,
+      "sha256": "a997e880ae6d9f9cc20818fa306453a7b52194bf59841dcf00fbe37228cf8bb8"
+    }
+  },
+  "ciEvidence": {
+    "path": "py-katex/test-runs/DOCS-RELEASE-vchart-publication-readback-20261107T134504Z-1e3281c8/artifacts/ci/publication-ci.json",
+    "bytes": 2789,
+    "sha256": "c94045fc412d44c5d8a9a5c1e3f4f0e642308ad81414b3ac17e7ee829a7188db"
+  },
+  "publicMetadataEvidence": {
+    "path": "py-katex/test-runs/DOCS-RELEASE-public-metadata-complete-20261107T134709Z-c766222c/artifacts/verified-public-metadata.json",
+    "bytes": 2621,
+    "sha256": "5e4528ba1e879cf1afa6e3719e1e611601898c51b54350477e7c1d2720755837"
+  },
+  "releaseScope": "Documentation/navigation and release maintenance only; algorithms, fonts/data and dependency constraints unchanged. KATEX runtime version identifier alone updated.",
+  "retainedFailedPreparation": [
+    {
+      "run": "py-katex/test-runs/DOCS-RELEASE-build-20261107T133803Z-5c151254",
+      "reason": "KATEX runtime CRLF restoration required by strict original-byte check; workenv used old installed0.1.0. Superseded by rebuilt verified bytes and clean installs, never released bad candidate."
+    },
+    {
+      "run": "py-katex/test-runs/DOCS-RELEASE-public-metadata-20261107T134617Z-42ae4b44",
+      "reason": "VChart audit initially compared full Requires-Dist extras to production-only set; corrected to exact unchanged declared requirements. No package change."
+    }
+  ]
+}
