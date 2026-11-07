@@ -52,7 +52,10 @@ def check_case(output, case):
         if hashlib.sha256(svg).hexdigest() != manifest["svgSha256"]:
             raise ValueError("SVG source differs from captured reference")
         VChart.register_svg_source(source["svg"], svg)
-    chart = VChart(source).render()
+    # This suite preserves the reviewed 0.1.0 calibrated reference contract.
+    # Native Canvas is checked separately; its font pixels are not substituted
+    # for this baseline and no historical pixel gate is relaxed.
+    chart = VChart(source, text_engine="reference").render()
     png = chart.to_png()
     (target / "actual.png").write_bytes(png)
     (target / "actual.scene.json").write_text(json.dumps(chart.scene, indent=2))

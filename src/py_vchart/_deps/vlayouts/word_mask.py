@@ -70,39 +70,46 @@ def raster_mask(shape, width, height):
         text = shape["text"]
         ctx.font = f"{weight} 12px {family}"
         size = min(height, int(12 * width / max(12, tile.measure(text))))
-        # Canvas middle aligns the normalized typographic em box.
-        from struct import unpack_from
+        from ..vrender._state import settings
+        if settings.get()[1]=='reference':
+            # Canvas middle aligns the normalized typographic em box.
+            from struct import unpack_from
 
-        import skia
-        from py_skia_canvas import ImageData
+            import skia
+            from py_skia_canvas import ImageData
 
-        from ..vrender.text import _rgba, raster_font
+            from ..vrender.text import _rgba, raster_font
 
-        face = raster_font(family, size, weight, False).refTypeface()
-        table = face.copyTableData(int.from_bytes(b"OS/2", "big"))
-        ascent, descent = unpack_from(">hh", bytes(table), 68) if table else (3, -1)
-        baseline = size * (ascent / (ascent - descent) - 0.5)
-        font = raster_font(family, size, weight, False)
-        glyphs = font.textToGlyphs(text)
-        run = skia.TextBlob.MakeFromPosTextH(text, font.getXPos(glyphs), 0, font)
-        bitmap = skia.Surface(width, height)
-        canvas = bitmap.getCanvas()
+            face = raster_font(family, size, weight, False).refTypeface()
+            table = face.copyTableData(int.from_bytes(b"OS/2", "big"))
+            ascent, descent = unpack_from(">hh", bytes(table), 68) if table else (3, -1)
+            baseline = size * (ascent / (ascent - descent) - 0.5)
+            font = raster_font(family, size, weight, False)
+            glyphs = font.textToGlyphs(text)
+            run = skia.TextBlob.MakeFromPosTextH(text, font.getXPos(glyphs), 0, font)
+            bitmap = skia.Surface(width, height)
+            canvas = bitmap.getCanvas()
 
-        def ink(css):
-            red, green, blue, alpha = _rgba(css)
-            return skia.ColorSetARGB(alpha, red, green, blue)
+            def ink(css):
+                red, green, blue, alpha = _rgba(css)
+                return skia.ColorSetARGB(alpha, red, green, blue)
 
-        canvas.clear(ink(background))
-        paint = skia.Paint(Color=ink(color), AntiAlias=True)
-        if shape.get("hollow"):
-            paint.setBlendMode(skia.BlendMode.kXor)
-        canvas.drawTextBlob(
-            run, x - font.measureText(text) / 2, round(y + baseline), paint
-        )
-        pixels = bitmap.makeImageSnapshot().toarray(
-            colorType=skia.ColorType.kRGBA_8888_ColorType
-        )
-        ctx.putImageData(ImageData(pixels.tobytes(), width, height), 0, 0)
+            canvas.clear(ink(background))
+            paint = skia.Paint(Color=ink(color), AntiAlias=True)
+            if shape.get("hollow"):
+                paint.setBlendMode(skia.BlendMode.kXor)
+            canvas.drawTextBlob(
+                run, x - font.measureText(text) / 2, round(y + baseline), paint
+            )
+            pixels = bitmap.makeImageSnapshot().toarray(
+                colorType=skia.ColorType.kRGBA_8888_ColorType
+            )
+            ctx.putImageData(ImageData(pixels.tobytes(), width, height), 0, 0)
+        else:
+            from ..vrender.text import font_css
+            ctx.font=font_css(family,size,weight)
+            ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=color
+            ctx.fillText(str(text),x,y)
     elif name == "cardioid":
         y = int(height / 2.7 * 0.4)
         r = int(min(width / 2.3, height / 2.6))
@@ -273,7 +280,7 @@ class MaskBoard:
         return None
 
 
-def glyph_offsets(text, family, weight, size, width, angle, padding):
+def _reference_glyph_offsets(text, family, weight, size, width, angle, padding):
     import numpy as np
     import skia
 
@@ -319,6 +326,32 @@ def glyph_offsets(text, family, weight, size, width, angle, padding):
         & (dx < cell_w - cell_w // 2)
     )
     return dy[inside], dx[inside]
+
+
+def glyph_offsets(text,family,weight,size,width,angle,padding):
+    from ..vrender._state import settings
+    if settings.get()[1]=='reference':
+        return _reference_glyph_offsets(text,family,weight,size,width,angle,padding)
+    import numpy as np
+    from ..vrender.text import font_css
+    half=ceil(hypot(width+2*padding,2*size+2*padding)/2)+3
+    tile=Surface(2*half,2*half);ctx=tile.ctx
+    ctx.translate(half,half);ctx.rotate(angle);ctx.font=font_css(family,size,weight)
+    ctx.textAlign='left';ctx.textBaseline='alphabetic';ctx.fillStyle='black'
+    advance=ctx.measureText(str(text)).width
+    ctx.fillText(str(text),-advance/2,0)
+    if padding:
+        ctx.strokeStyle='black';ctx.lineWidth=2*padding;ctx.miterLimit=10
+        ctx.strokeText(str(text),-advance/2,0)
+    alpha=np.frombuffer(bytes(ctx.getImageData(0,0,2*half,2*half).data),dtype=np.uint8).reshape(2*half,2*half,4)[:,:,3]
+    y,x=np.where(alpha>0)
+    cell_w=ctx.measureText(str(text)+'m').width+2*padding;cell_h=2*size+2*padding
+    if angle:
+        c,s=abs(cos(angle)),abs(sin(angle));cell_w,cell_h=c*cell_w+s*cell_h,int(s*cell_w+c*cell_h)
+    cell_w=(int(cell_w+31)//32)*32;cell_h=ceil(cell_h)
+    dy,dx=y-half,x-half
+    inside=(dy>=-(cell_h//2))&(dy<cell_h-cell_h//2)&(dx>=-(cell_w//2))&(dx<cell_w-cell_w//2)
+    return dy[inside],dx[inside]
 
 
 def filling_layout(board, words, options, font_family, weight, padding):

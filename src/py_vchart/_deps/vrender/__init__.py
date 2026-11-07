@@ -6,17 +6,38 @@ FONT = '12px "Microsoft YaHei", "Segoe UI", Arial, sans-serif'
 
 
 class Surface:
-    def __init__(self, width, height, *, text_contrast=0):
+    def __init__(self, width, height, *, text_contrast=0, backend=None, text_engine=None):
         try:
-            from py_skia_canvas import Canvas
+            from py_skia_canvas import Canvas,__version__
         except ImportError as exc:
             raise RuntimeError("Install py-visactor-vchart[render] with CPython 3.13") from exc
+        if __version__ not in ('0.1.0a18','0.1.0a19'):
+            raise RuntimeError('py-vchart requires py-skia-canvas0.1.0a18 or0.1.0a19')
+        from ._state import settings
+        selected,engine=settings.get()
+        backend=selected if backend is None else backend
+        self.text_engine=engine if text_engine is None else text_engine
+        if backend not in ('cpu','auto','gpu') or self.text_engine not in ('canvas','reference'):
+            raise ValueError('Invalid rendering backend or text_engine')
         self.canvas = Canvas(width, height, {"textContrast": text_contrast})
-        # Pin offscreen rasterization across machines and driver configurations.
-        self.canvas.gpu = False
+        if backend=='cpu':self.canvas.gpu=False
+        # auto keeps the public Canvas default; gpu must be a real GPU.
+        elif backend=='gpu':self.canvas.gpu=True
         self.ctx = self.canvas.getContext("2d")
+        if backend=='gpu' and self.canvas.engine.get('renderer')!='GPU':
+            raise RuntimeError('Requested GPU renderer is unavailable')
         self.ctx.font = FONT
         self.labels = []
+
+    @classmethod
+    def from_canvas(cls,canvas,*,text_engine='canvas'):
+        """Borrow the owner Canvas without resizing or changing its device."""
+        from py_skia_canvas import Canvas
+        if not isinstance(canvas,Canvas):raise TypeError('draw_to requires a public Canvas')
+        if text_engine not in ('canvas','reference'):raise ValueError('Invalid text_engine')
+        result=object.__new__(cls);result.canvas=canvas;result.ctx=canvas.getContext('2d')
+        result.text_engine=text_engine;result.labels=[]
+        return result
 
     def measure(self, text):
         return self.ctx.measureText(str(text)).width
@@ -200,3 +221,6 @@ class Surface:
 
     def png(self):
         return self.canvas.toBufferSync("png")
+
+    def encode(self,format='png',options=None):
+        return self.canvas.toBufferSync(format,{} if options is None else dict(options))

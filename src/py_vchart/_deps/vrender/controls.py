@@ -30,7 +30,7 @@ def rounded_rect(surface, x, y, w, h, radius, color):
     ctx.fill()
 
 
-def slider_thumb(surface, x, y, color):
+def _reference_slider_thumb(surface, x, y, color):
     """Paint the color handle and its offset, shadow-casting white rim."""
     from math import floor, pi
     import numpy as np
@@ -75,3 +75,15 @@ def slider_thumb(surface, x, y, color):
     shaded = ink * (255 - alpha) // 255 + np.array([33, 37, 44]) * alpha // 255
     pixels[face, :3] = shaded[face]
     ctx.putImageData(ImageData(pixels.tobytes(), 11, 11), left, top)
+
+
+def slider_thumb(surface,x,y,color):
+    if surface.text_engine=='reference':
+        return _reference_slider_thumb(surface,x,y,color)
+    from math import pi
+    ctx=surface.ctx;ctx.save()
+    try:
+        ctx.shadowColor='rgba(33,37,44,0.09)';ctx.shadowBlur=10;ctx.shadowOffsetY=4
+        surface.circle(x,y,10,color,None,0)
+        ctx.beginPath();ctx.arc(x,y,5.8,0,2*pi);ctx.lineWidth=2;ctx.strokeStyle='white';ctx.stroke()
+    finally:ctx.restore()

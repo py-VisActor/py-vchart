@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-visactor-vchart"
-version = "0.1.0"
+version = "0.1.1"
 description = "Native Python rendering of two-dimensional static VisActor VChart charts"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
@@ -18,7 +18,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Topic :: Scientific/Engineering :: Visualization",
 ]
-dependencies = ["py-skia-canvas==0.1.0a19", "skia-python==144.1", "numpy>=1.26"]
+dependencies = ["py-skia-canvas>=0.1.0a18,<=0.1.0a19", "numpy>=1.26"]
 
 [project.urls]
 Repository = "https://github.com/py-VisActor/py-vchart"
@@ -30,4 +30,5 @@ namespaces = false
 
 [project.optional-dependencies]
 render = []
+reference = ["skia-python==144.1"]
 test = ["Pillow>=10"]

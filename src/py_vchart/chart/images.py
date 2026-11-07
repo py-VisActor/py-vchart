@@ -12,13 +12,15 @@ _svg_sources = {}
 
 
 def register_svg_source(name, source):
-    root = ElementTree.fromstring(source)
+    # Preserve the legacy registration/error boundary: URI validation occurs
+    # before actual render/decode, not while storing a harmless XML tree.
+    root = _parse_svg(source)
     if root.tag.split("}")[-1] != "svg":
         raise ValueError("pictogram source must be SVG")
     _svg_sources[name] = root
 
 
-def render_pictogram(spec, surface, width, height):
+def _reference_pictogram(spec, surface, width, height):
     from copy import deepcopy
 
     import numpy as np
@@ -28,7 +30,7 @@ def render_pictogram(spec, surface, width, height):
     rows = records(
         spec, {"svg", "nameField", "valueField", "pictogram", "defaultFillColor"}
     )
-    root = _svg_sources.get(spec["svg"])
+    root = _registered_svg(spec["svg"])
     if root is None:
         raise ValueError(f"Unregistered pictogram SVG: {spec['svg']}")
     view = root.get("viewBox", f"0 0 {root.get('width', 0)} {root.get('height', 0)}")
@@ -187,3 +189,86 @@ def render_image_cloud(spec, surface, width, height):
         labels=[],
         marks={"image": [[p + x, p + y, iw, ih] for x, y, iw, ih in placed]},
     )
+
+
+def _parse_svg(source):
+    import re
+    if not isinstance(source,(str,bytes)) or len(source)>8_000_000:
+        raise ValueError('SVG source must be bounded explicit text/bytes')
+    text=source.decode('utf8') if isinstance(source,bytes) else source
+    if re.search(r'<!DOCTYPE|<!ENTITY|@import',text,re.I):raise ValueError('External SVG declarations are forbidden')
+    root=ElementTree.fromstring(text)
+    if root.tag.split('}')[-1]!='svg':raise ValueError('pictogram source must be SVG')
+    return root
+
+
+def validate_svg(source,*,_depth=0):
+    """Explicit offline SVG data only; never resolve URI/resource dependencies."""
+    import re
+    if _depth>8:raise ValueError('Nested SVG resource budget exceeded')
+    root=_parse_svg(source)
+    for node in root.iter():
+        tag=node.tag.split('}')[-1].lower()
+        if tag in ('script','foreignobject','iframe','audio','video'):
+            raise ValueError('SVG host/executable content is forbidden')
+        if tag=='style':
+            for reference in re.findall(r'url\((.*?)\)',''.join(node.itertext()),re.I):
+                if not reference.strip().strip('"\'').startswith('#'):
+                    raise ValueError('External SVG style references are forbidden')
+        for key,value in node.attrib.items():
+            name=key.split('}')[-1].lower()
+            if name.startswith('on'):raise ValueError('SVG event handlers are forbidden')
+            if name=='href' and not value.startswith(('#','data:image/')):
+                raise ValueError('SVG requires local fragment references or embedded images; explicit offline references only')
+            if name=='href' and value.startswith('data:image/svg+xml'):
+                import base64
+                from urllib.parse import unquote_to_bytes
+                header,body=value.split(',',1)
+                nested=base64.b64decode(body,validate=True) if ';base64' in header else unquote_to_bytes(body)
+                validate_svg(nested,_depth=_depth+1)
+            if name in ('style','fill','stroke','filter','clip-path','mask','marker-start','marker-mid','marker-end','cursor') and 'url(' in value.lower():
+                # Check each reference after stripping optional CSS quotation.
+                for reference in re.findall(r'url\((.*?)\)',value,re.I):
+                    if not reference.strip().strip('\"\'').startswith('#'):
+                        raise ValueError('External SVG paint references are forbidden')
+    return root
+
+
+def _registered_svg(name):
+    from .._deps.vrender._state import svg_sources
+    sources=svg_sources.get()
+    root=(_svg_sources if sources is None else sources).get(name)
+    return None if root is None else validate_svg(ElementTree.tostring(root))
+
+
+def render_pictogram(spec,surface,width,height):
+    if surface.text_engine=='reference':return _reference_pictogram(spec,surface,width,height)
+    from copy import deepcopy
+    from py_skia_canvas import Image
+    rows=records(spec,{'svg','nameField','valueField','pictogram','defaultFillColor'})
+    stored=_registered_svg(spec['svg'])
+    if stored is None:raise ValueError('Unregistered pictogram SVG: '+str(spec['svg']))
+    root=deepcopy(stored)
+    view=root.get('viewBox',f"0 0 {root.get('width',0)} {root.get('height',0)}")
+    _,_,vw,vh=map(float,view.replace(',',' ').split())
+    from math import isfinite
+    if not all(isfinite(v) and v>0 for v in (vw,vh)):raise ValueError('pictogram requires an SVG viewport')
+    p=spec.get('padding',20);w,h=width-2*p,height-2*p;scale=min(w/vw,h/vh)
+    if min(w,h)<=0:raise ValueError('pictogram padding exceeds canvas')
+    names={r[spec.get('nameField','name')] for r in rows if spec.get('nameField','name') in r}
+    styles=spec.get('pictogram',{}).get('style',{})
+    for node in root.iter():
+        if node.get('name') in names:
+            for attr,key in [('fill','fill'),('stroke','stroke'),('stroke-width','lineWidth')]:
+                if key in styles:node.set(attr,str(styles[key]))
+        for attr in ('fill','stroke'):
+            if 'url(' in node.get(attr,''):node.set(attr,'none')
+    root.attrib.setdefault('fill',spec.get('defaultFillColor','black'));root.set('width',str(vw));root.set('height',str(vh))
+    image=Image(ElementTree.tostring(root))
+    ctx=surface.ctx;ctx.save()
+    try:
+        surface.rect((0,0,width,height),spec.get('background','white'))
+        ctx.translate(p+(w-vw*scale)/2,p+(h-vh*scale)/2);ctx.scale(scale,scale)
+        ctx.beginPath();ctx.rect(0,0,vw,vh);ctx.clip();ctx.drawImage(image,0,0,vw,vh)
+    finally:ctx.restore()
+    return dict(plot=[p,p,w,h],labels=[],axes=[],marks={})

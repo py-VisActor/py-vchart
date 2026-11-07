@@ -22,9 +22,12 @@ def render_map(spec, surface, width, height):
                "area", "label"}, "map")
     hidden_label(spec)
     name = spec.get("map")
-    if not isinstance(name, str) or name not in _sources:
+    from .._deps.vrender._state import map_sources
+    available=map_sources.get()
+    available=_sources if available is None else available
+    if not isinstance(name, str) or name not in available:
         raise ValueError("map requires a local source registered with VChart.register_map")
-    features = _sources[name]
+    features = available[name]
     plot = plot_region(spec, surface, width, height)
     paths = fit_paths(features, plot)
     rows = inline_values(spec.get("data", {"values": []}), "map.data")

@@ -1,106 +1,48 @@
-"""Rasterize small axis and legend glyph runs at their device-pixel origins."""
-
-from functools import lru_cache
-from math import ceil, floor
+"""Public Canvas typography; calibrated reference mode is explicit."""
+from ._state import active_context, settings
 
 
-@lru_cache(maxsize=96)
-def raster_font(family, size, weight=400, italic=False):
-    import skia
-
-    style = skia.FontStyle(
-        int({"normal": 400, "bold": 700}.get(weight, weight)),
-        5,
-        skia.FontStyle.kItalic_Slant if italic else skia.FontStyle.kUpright_Slant,
-    )
-    face = skia.FontMgr.RefDefault().matchFamilyStyle(family, style)
-    font = skia.Font(face, size)
-    font.setLinearMetrics(True)
-    font.setHinting(skia.FontHinting.kFull)
-    font.setSubpixel(True)
-    font.setBaselineSnap(False)
-    font.setEdging(skia.Font.kSubpixelAntiAlias)
-    return font
+def font_css(family, size, weight=400, italic=False):
+    weight={"normal":400,"bold":700}.get(weight,weight)
+    family=str(family).strip().removesuffix(';').strip()
+    return f'{"italic" if italic else "normal"} {weight} {size:g}px {family}'
 
 
-@lru_cache(maxsize=128)
+class _CanvasFont:
+    def __init__(self,family,size,weight,italic):
+        self.css=font_css(family,size,weight,italic)
+
+    def measureText(self,text):
+        ctx=active_context.get()
+        if ctx is None:
+            from . import Surface
+            owner=Surface(1,1);ctx=owner.ctx
+        ctx.save()
+        try:ctx.font=self.css;return ctx.measureText(str(text)).width
+        finally:ctx.restore()
+
+
+def raster_font(family,size,weight=400,italic=False):
+    """Owner-local metrics adapter; no native handles in global caches."""
+    if settings.get()[1]=='reference':
+        from ._reference_text import raster_font as reference
+        return reference(family,size,weight,italic)
+    return _CanvasFont(family,size,weight,italic)
+
+
 def _rgba(color):
-    from . import Surface
-
-    sample = Surface(1, 1)
-    sample.rect((0, 0, 1, 1), color)
-    return tuple(sample.ctx.getImageData(0, 0, 1, 1).data)
+    from ._reference_text import _rgba as sample
+    return sample(color)
 
 
-def glyph_run(
-    surface,
-    text,
-    x,
-    y,
-    size,
-    color,
-    align="left",
-    *,
-    bold=False,
-    weight=None,
-    italic=False,
-    family="Microsoft YaHei",
-):
-    """Composite a single line using the current transform and alphabetic baseline."""
-    import skia
-    import numpy as np
-    from py_skia_canvas import ImageData
-
-    text = str(text)
-    if not text:
-        return
-    ctx = surface.ctx
-    font = raster_font(
-        family, size, weight if weight is not None else (700 if bold else 400), italic
-    )
-    glyphs = font.textToGlyphs(text)
-    advance = font.measureText(text)
-    x -= {"left": 0, "center": 0.5, "right": 1}[align] * advance
-    m = ctx.getTransform()
-    corners = [
-        (m.a * u + m.c * v + m.e, m.b * u + m.d * v + m.f)
-        for u in (x - size, x + advance + size)
-        for v in (y - size * 1.5, y + size * 0.5)
-    ]
-    dx = max(0, floor(min(u for u, _ in corners)))
-    dy = max(0, floor(min(v for _, v in corners)))
-    w = min(int(surface.canvas.width), ceil(max(u for u, _ in corners))) - dx
-    h = min(int(surface.canvas.height), ceil(max(v for _, v in corners))) - dy
-    if min(w, h) <= 0:
-        return
-    tile = skia.Surface.MakeRasterN32Premul(w, h)
-    canvas = tile.getCanvas()
-    canvas.setMatrix(
-        skia.Matrix.MakeAll(m.a, m.c, m.e - dx, m.b, m.d, m.f - dy, 0, 0, 1)
-    )
-    red, green, blue, opacity = _rgba(color)
-    ink = 0xFF000000 | (red << 16) | (green << 8) | blue
-    paint = skia.Paint(Color=ink, AntiAlias=True)
-    blob = skia.TextBlob.MakeFromPosTextH(text, font.getXPos(glyphs), 0, font)
-    canvas.drawTextBlob(blob, x, y, paint)
-    rgba = tile.makeImageSnapshot().toarray(
-        colorType=skia.ColorType.kRGBA_8888_ColorType
-    )
-    coverage = rgba[:, :, 3:4].astype(float) / 255
-    # Grayscale contrast compensation before compositing. Preserve the
-    # fractional coverage until all three ink channels have been blended.
-    coverage += 0.145 * coverage * (1 - coverage)
-    coverage *= ctx.globalAlpha * opacity / 255
-    bg = np.frombuffer(
-        bytes(ctx.getImageData(dx, dy, w, h).data), dtype=np.uint8
-    ).reshape(h, w, 4)
-    dst_alpha = bg[:, :, 3:4] / 255 * (1 - coverage)
-    out_alpha = coverage + dst_alpha
-    foreground = np.array([red, green, blue])
-    blended = (foreground * coverage + bg[:, :, :3] * dst_alpha) / np.where(
-        out_alpha > 0, out_alpha, 1
-    )
-    pixels = np.rint(np.concatenate((blended, out_alpha * 255), axis=2)).astype(
-        np.uint8
-    )
-    ctx.putImageData(ImageData(pixels.tobytes(), w, h), dx, dy)
+def glyph_run(surface,text,x,y,size,color,align='left',*,bold=False,weight=None,italic=False,family='Microsoft YaHei'):
+    if surface.text_engine=='reference':
+        from ._reference_text import glyph_run as reference
+        return reference(surface,text,x,y,size,color,align,bold=bold,weight=weight,italic=italic,family=family)
+    if not str(text):return
+    ctx=surface.ctx;ctx.save()
+    try:
+        ctx.font=font_css(family,size,weight if weight is not None else 700 if bold else 400,italic)
+        ctx.textAlign=align;ctx.textBaseline='alphabetic';ctx.fillStyle=color
+        ctx.fillText(str(text),x,y)
+    finally:ctx.restore()

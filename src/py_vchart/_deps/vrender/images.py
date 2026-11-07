@@ -12,7 +12,11 @@ def embedded_image(uri):
         or ";base64," not in uri
     ):
         raise ValueError("Expected an embedded base64 image")
-    return Image(base64.b64decode(uri.split(",", 1)[1], validate=True))
+    data=base64.b64decode(uri.split(",", 1)[1], validate=True)
+    if uri.startswith('data:image/svg+xml') or data.lstrip(b'\xef\xbb\xbf \t\r\n').startswith(b'<'):
+        from ...chart.images import validate_svg
+        validate_svg(data)
+    return Image(data)
 
 
 def draw_fitted_image(ctx, uri, x, y, width, height, style):
