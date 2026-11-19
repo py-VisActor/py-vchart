@@ -107,7 +107,8 @@ def main():
     p.add_argument('--manifest', type=Path)
     p.add_argument('--packages', type=Path)
     p.add_argument('--out', type=Path, required=True)
-    p.add_argument('--canvas', default='0.1.0a18', choices=['0.1.0a18', '0.1.0a19'])
+    canvas_versions = ['0.1.0a21'] if sys.platform == 'darwin' else ['0.1.0a18', '0.1.0a19']
+    p.add_argument('--canvas', default=canvas_versions[0], choices=canvas_versions)
     p.add_argument('--allow-dirty', action='store_true', help='Development build only; GitHub release transport rejects it')
     args = p.parse_args()
     if args.action == 'build':

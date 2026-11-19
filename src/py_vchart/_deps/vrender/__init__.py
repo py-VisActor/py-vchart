@@ -1,6 +1,7 @@
 """Small Canvas 2D adapter for the static Cartesian renderer."""
 
 from math import atan2, ceil, cos, floor, pi, sin, tan, tau
+import sys
 
 FONT = '12px "Microsoft YaHei", "Segoe UI", Arial, sans-serif'
 
@@ -10,9 +11,10 @@ class Surface:
         try:
             from py_skia_canvas import Canvas,__version__
         except ImportError as exc:
-            raise RuntimeError("Install py-visactor-vchart[render] with CPython 3.13") from exc
-        if __version__ not in ('0.1.0a18','0.1.0a19'):
-            raise RuntimeError('py-vchart requires py-skia-canvas0.1.0a18 or0.1.0a19')
+            raise RuntimeError("Install py-visactor-vchart with CPython 3.13") from exc
+        supported = ('0.1.0a21',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
+        if __version__ not in supported:
+            raise RuntimeError(f"py-vchart requires py-skia-canvas {' or '.join(supported)}")
         from ._state import settings
         selected,engine=settings.get()
         backend=selected if backend is None else backend

@@ -1,6 +1,6 @@
 # 使用指南
 
-安装见[项目首页](../README.md)。需要 CPython 3.13，发行名 `py-visactor-vchart`，导入名 `py_vchart`。
+安装见[项目首页](../README.md)。需要 CPython 3.13，支持 macOS 13+（Apple Silicon 和 Intel）、Windows AMD64 和 Linux x86_64（glibc 2.28+）。发行名 `py-visactor-vchart`，导入名 `py_vchart`。
 
 ## 数据与最小图表
 

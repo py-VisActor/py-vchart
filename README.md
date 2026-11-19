@@ -6,10 +6,10 @@
 ## 安装
 
 ```sh
-python -m pip install py-visactor-vchart==0.1.2
+python -m pip install py-visactor-vchart==0.1.3
 ```
 
-需要 CPython 3.13，当前原生依赖面向 Windows x86-64 与 Linux x86-64。
+需要 CPython 3.13，支持 macOS 13+（Apple Silicon 和 Intel）、Windows AMD64 和 Linux x86_64（glibc 2.28+）。pip 会按平台安装 Canvas wheel。
 发行名为 `py-visactor-vchart`，导入名为 `py_vchart`。
 
 ## 最小示例

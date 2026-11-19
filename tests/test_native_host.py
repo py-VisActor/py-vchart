@@ -7,7 +7,7 @@ replacement golden or relaxed OracleTests pixel gate. The old calibrated
 reference gate remains separate and mandatory in the reference-extra job.
 
 No native allocation, renderer, source oracle or test is invoked at import.
-Both installed Canvas a18/a19 must run this suite in separate release jobs;
+Each supported Canvas version runs this suite in a separate release job;
 one process checks its actual version, never monkeypatches a version string.
 """
 import builtins
@@ -21,6 +21,7 @@ import json
 import math
 from pathlib import Path
 import re
+import sys
 import tomllib
 import unittest
 from unittest.mock import patch
@@ -113,9 +114,10 @@ class NativeHostContracts(unittest.TestCase):
         self.assertTrue(any(d.lower().startswith('skia-python') for d in project['optional-dependencies']['reference']))
         self.assertTrue(any(d.lower().startswith('numpy') for d in project['dependencies']))
 
-    def test_actual_canvas_release_is_one_of_the_two_reviewed_api_versions(self):
+    def test_actual_canvas_release_is_supported_on_this_platform(self):
         import py_skia_canvas
-        self.assertIn(py_skia_canvas.__version__,('0.1.0a18','0.1.0a19'))
+        supported = ('0.1.0a21',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
+        self.assertIn(py_skia_canvas.__version__, supported)
         for name in ('Canvas','Path2D','Image','FontLibrary'):
             self.assertTrue(hasattr(py_skia_canvas,name))
 

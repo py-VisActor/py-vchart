@@ -1,5 +1,9 @@
 # 更新记录
 
+## 0.1.3
+
+- 支持 macOS 13+ 的 Apple Silicon 和 Intel，按平台选择 Canvas wheel。
+
 ## 0.1.2
 
 文档维护发行：README/PyPI 简介聚焦安装、最小示例和范围；新增用户指南/API/图表目录，以及独立的维护者和 AI agent 导航。项目 Documentation URL 指向用户目录，新增问题与更新记录入口。
