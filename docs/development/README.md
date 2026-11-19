@@ -34,7 +34,7 @@ python -m unittest discover -s tests
 | 基础图验收 | [Bar](../BAR_ACCEPTANCE.md)、[Line](../LINE_ACCEPTANCE.md)、[Scatter](../SCATTER_ACCEPTANCE.md) |
 | 分组验收 | [笛卡尔](../CARTESIAN_BATCH_ACCEPTANCE.md)、[极坐标](../POLAR_BATCH_ACCEPTANCE.md)、[专用几何](../GEOMETRY_BATCH_ACCEPTANCE.md)、[地图](../MAP_ACCEPTANCE.md)、[扩展批次](../EXPANDED_BATCH_ACCEPTANCE.md) |
 | 发行 | [发行说明目录](../releases/)、[0.1.1 发布证据](../RELEASE_0_1_1.md)、[用户更新摘要](../CHANGELOG.md) |
-| 当前维护发行 | [0.1.2 说明](../releases/0.1.2.md)；旧发布证据保留原始版本口径 |
+| 当前维护发行 | [0.1.3 说明](../releases/0.1.3.md)；旧发布证据保留原始版本口径 |
 | 法律与来源 | [MIT](../../LICENSE)、[VChart](../../LICENSE-VChart)、[venn.js](../../LICENSE-venn-js)、[fmin](../../LICENSE-fmin)、[统计配色](../../LICENSE-statplot-palettes) |
 
 保留既有基准与闭合 `test-runs/`，不要覆盖首轮失败或用当前 Python 输出生成“原版”预期。跨仓并行遵循明确的文件 owner，接口变更先协调。

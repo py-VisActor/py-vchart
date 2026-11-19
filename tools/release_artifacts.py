@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import time
 import tomllib
 import venv
 
@@ -83,11 +84,19 @@ def install(manifest_path, packages, out, canvas):
 
 
 def pypi(manifest_path, out):
+    import urllib.error
     import urllib.request
     manifest = json.loads(manifest_path.read_text('utf-8'))
     url = f"https://pypi.org/pypi/{manifest['project']}/{manifest['version']}/json"
-    with urllib.request.urlopen(url, timeout=60) as response:
-        metadata = json.load(response)
+    for attempt in range(12):
+        try:
+            with urllib.request.urlopen(url, timeout=60) as response:
+                metadata = json.load(response)
+            break
+        except urllib.error.HTTPError as error:
+            if error.code != 404 or attempt == 11:
+                raise
+            time.sleep(5)
     assets = {asset['filename']: asset for asset in metadata['urls']}
     out.mkdir(parents=True, exist_ok=False)
     for name, expected in manifest['distributions'].items():
