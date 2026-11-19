@@ -1,0 +1,32 @@
+{
+  "project": "py-visactor-vchart",
+  "version": "0.1.4",
+  "tag": "py-visactor-vchart-v0.1.4",
+  "sourceCommit": "3cbac5d33785f596282e4ad1d3683691bfc830c4",
+  "sourceTreeSha256": "9f3b48a5996601ab8ec1021861b7bdb592768f40fb98c2db4fa9c3dfe80d9794",
+  "dirtySource": false,
+  "distributions": {
+    "py_visactor_vchart-0.1.4-py3-none-any.whl": {
+      "bytes": 122163,
+      "sha256": "8eaf35d81d3b32d03aa918a82f6001b48379c734abb7957c9dc224a7723f76b6"
+    },
+    "py_visactor_vchart-0.1.4.tar.gz": {
+      "bytes": 110075,
+      "sha256": "62da12ce1169623385d3456d96be218f164737b21a7f249643a3874571dc00d1"
+    }
+  },
+  "status": "PYPI_AND_GITHUB_VERIFIED",
+  "pypi": "https://pypi.org/project/py-visactor-vchart/0.1.4/",
+  "githubRelease": "https://github.com/py-VisActor/py-vchart/releases/tag/py-visactor-vchart-v0.1.4",
+  "workflow": "https://github.com/py-VisActor/py-vchart/actions/runs/44464834927",
+  "verifiedPlatforms": [
+    "macos-15",
+    "macos-15-intel",
+    "ubuntu-24.04",
+    "windows-2025"
+  ],
+  "verifiedDistributionKinds": [
+    "wheel",
+    "sdist"
+  ]
+}
