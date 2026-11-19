@@ -5,8 +5,8 @@ on:
       release_tag:
         description: Reviewed GitHub release tag
         type: choice
-        options: [py-visactor-vchart-v0.1.3]
-        default: py-visactor-vchart-v0.1.3
+        options: [py-visactor-vchart-v0.1.4]
+        default: py-visactor-vchart-v0.1.4
       manifest_sha256:
         description: SHA256 of reviewed release-manifest.json
         type: string
@@ -32,9 +32,9 @@ jobs:
         canvas: [0.1.0a18, 0.1.0a19]
         include:
           - os: macos-15
-            canvas: 0.1.0a21
+            canvas: 0.1.4
           - os: macos-15-intel
-            canvas: 0.1.0a21
+            canvas: 0.1.4
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-24.04
     environment:
       name: pypi
-      url: https://pypi.org/project/py-visactor-vchart/0.1.3/
+      url: https://pypi.org/project/py-visactor-vchart/0.1.4/
     permissions:
       contents: read
       id-token: write

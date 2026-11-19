@@ -1,5 +1,9 @@
 # 更新记录
 
+## 0.1.4
+
+- 将 macOS 发行版本与 Canvas、ELK、KaTeX 和 Mermaid 统一为 0.1.4。
+
 ## 0.1.3
 
 - 支持 macOS 13+ 的 Apple Silicon 和 Intel，按平台选择 Canvas wheel。

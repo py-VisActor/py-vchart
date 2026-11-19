@@ -12,7 +12,7 @@ class Surface:
             from py_skia_canvas import Canvas,__version__
         except ImportError as exc:
             raise RuntimeError("Install py-visactor-vchart with CPython 3.13") from exc
-        supported = ('0.1.0a21',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
+        supported = ('0.1.4',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
         if __version__ not in supported:
             raise RuntimeError(f"py-vchart requires py-skia-canvas {' or '.join(supported)}")
         from ._state import settings

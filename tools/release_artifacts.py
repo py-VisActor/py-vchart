@@ -88,13 +88,14 @@ def pypi(manifest_path, out):
     import urllib.request
     manifest = json.loads(manifest_path.read_text('utf-8'))
     url = f"https://pypi.org/pypi/{manifest['project']}/{manifest['version']}/json"
-    for attempt in range(12):
+    attempts = 24
+    for attempt in range(attempts):
         try:
             with urllib.request.urlopen(url, timeout=60) as response:
                 metadata = json.load(response)
             break
         except urllib.error.HTTPError as error:
-            if error.code != 404 or attempt == 11:
+            if error.code != 404 or attempt == attempts - 1:
                 raise
             time.sleep(5)
     assets = {asset['filename']: asset for asset in metadata['urls']}
@@ -116,7 +117,7 @@ def main():
     p.add_argument('--manifest', type=Path)
     p.add_argument('--packages', type=Path)
     p.add_argument('--out', type=Path, required=True)
-    canvas_versions = ['0.1.0a21'] if sys.platform == 'darwin' else ['0.1.0a18', '0.1.0a19']
+    canvas_versions = ['0.1.4'] if sys.platform == 'darwin' else ['0.1.0a18', '0.1.0a19']
     p.add_argument('--canvas', default=canvas_versions[0], choices=canvas_versions)
     p.add_argument('--allow-dirty', action='store_true', help='Development build only; GitHub release transport rejects it')
     args = p.parse_args()

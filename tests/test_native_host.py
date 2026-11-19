@@ -116,7 +116,7 @@ class NativeHostContracts(unittest.TestCase):
 
     def test_actual_canvas_release_is_supported_on_this_platform(self):
         import py_skia_canvas
-        supported = ('0.1.0a21',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
+        supported = ('0.1.4',) if sys.platform == 'darwin' else ('0.1.0a18', '0.1.0a19')
         self.assertIn(py_skia_canvas.__version__, supported)
         for name in ('Canvas','Path2D','Image','FontLibrary'):
             self.assertTrue(hasattr(py_skia_canvas,name))
